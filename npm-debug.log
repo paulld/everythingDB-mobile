@@ -1,0 +1,2586 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 warn package.json everythingdb-app@1.0.0 No repository field.
+5 warn package.json everythingdb-app@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/harrychen/Mobileapps/everythingDB-app',
+7 verbose install   [ 'gulp',
+7 verbose install     'gulp-sass',
+7 verbose install     'gulp-concat',
+7 verbose install     'gulp-minify-css',
+7 verbose install     'gulp-rename',
+7 verbose install     'bower',
+7 verbose install     'gulp-util',
+7 verbose install     'shelljs' ] ]
+8 info preinstall everythingdb-app@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping gulp-concat@^2.2.0 /Users/harrychen/Mobileapps/everythingDB-app
+11 verbose already installed skipping gulp@^3.5.6 /Users/harrychen/Mobileapps/everythingDB-app
+12 verbose already installed skipping gulp-sass@^0.7.1 /Users/harrychen/Mobileapps/everythingDB-app
+13 verbose already installed skipping gulp-minify-css@^0.3.0 /Users/harrychen/Mobileapps/everythingDB-app
+14 verbose already installed skipping gulp-rename@^1.2.0 /Users/harrychen/Mobileapps/everythingDB-app
+15 verbose cache add [ 'bower@^1.3.3', null ]
+16 verbose cache add name=undefined spec="bower@^1.3.3" args=["bower@^1.3.3",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'bower@^1.3.3',
+17 verbose parsed url   path: 'bower@^1.3.3',
+17 verbose parsed url   href: 'bower@^1.3.3' }
+18 verbose already installed skipping gulp-util@^2.2.14 /Users/harrychen/Mobileapps/everythingDB-app
+19 verbose cache add name="bower" spec="^1.3.3" args=["bower","^1.3.3"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '^1.3.3',
+20 verbose parsed url   path: '^1.3.3',
+20 verbose parsed url   href: '^1.3.3' }
+21 verbose addNamed [ 'bower', '^1.3.3' ]
+22 verbose addNamed [ null, '>=1.3.3-0 <2.0.0-0' ]
+23 verbose already installed skipping shelljs@^0.3.0 /Users/harrychen/Mobileapps/everythingDB-app
+24 silly lockFile 0aa5c27e-bower-1-3-3 bower@^1.3.3
+25 verbose lock bower@^1.3.3 /Users/harrychen/.npm/0aa5c27e-bower-1-3-3.lock
+26 silly addNameRange { name: 'bower', range: '>=1.3.3-0 <2.0.0-0', hasData: false }
+27 verbose registry.get bower not expired, no request
+28 silly addNameRange number 2 { name: 'bower', range: '>=1.3.3-0 <2.0.0-0', hasData: true }
+29 silly addNameRange versions [ 'bower',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.6.3',
+29 silly addNameRange     '0.6.4',
+29 silly addNameRange     '0.6.5',
+29 silly addNameRange     '0.6.6',
+29 silly addNameRange     '0.6.7',
+29 silly addNameRange     '0.6.8',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.8.1',
+29 silly addNameRange     '0.8.2',
+29 silly addNameRange     '0.8.3',
+29 silly addNameRange     '0.8.4',
+29 silly addNameRange     '0.8.5',
+29 silly addNameRange     '0.8.6',
+29 silly addNameRange     '0.9.0',
+29 silly addNameRange     '0.9.1',
+29 silly addNameRange     '0.9.2',
+29 silly addNameRange     '0.10.0',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.1.2',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.2.1',
+29 silly addNameRange     '1.2.2',
+29 silly addNameRange     '1.2.3',
+29 silly addNameRange     '1.2.4',
+29 silly addNameRange     '1.2.5',
+29 silly addNameRange     '1.2.6',
+29 silly addNameRange     '1.2.7',
+29 silly addNameRange     '1.2.8',
+29 silly addNameRange     '1.3.0',
+29 silly addNameRange     '1.3.1',
+29 silly addNameRange     '1.3.2',
+29 silly addNameRange     '1.3.3',
+29 silly addNameRange     '1.3.4',
+29 silly addNameRange     '1.3.5',
+29 silly addNameRange     '1.3.6',
+29 silly addNameRange     '1.3.7',
+29 silly addNameRange     '1.3.8',
+29 silly addNameRange     '1.3.9',
+29 silly addNameRange     '1.3.10',
+29 silly addNameRange     '1.3.11',
+29 silly addNameRange     '1.3.12' ] ]
+30 verbose addNamed [ 'bower', '1.3.12' ]
+31 verbose addNamed [ '1.3.12', '1.3.12' ]
+32 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+33 verbose lock bower@1.3.12 /Users/harrychen/.npm/9819431c-bower-1-3-12.lock
+34 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+35 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+36 silly lockFile 0aa5c27e-bower-1-3-3 bower@^1.3.3
+37 silly lockFile 0aa5c27e-bower-1-3-3 bower@^1.3.3
+38 silly resolved [ { name: 'bower',
+38 silly resolved     version: '1.3.12',
+38 silly resolved     description: 'The browser package manager',
+38 silly resolved     author: { name: 'Twitter' },
+38 silly resolved     licenses: [ [Object] ],
+38 silly resolved     repository: { type: 'git', url: 'https://github.com/bower/bower' },
+38 silly resolved     main: 'lib',
+38 silly resolved     homepage: 'http://bower.io',
+38 silly resolved     engines: { node: '>=0.10.0' },
+38 silly resolved     dependencies:
+38 silly resolved      { abbrev: '~1.0.4',
+38 silly resolved        archy: '0.0.2',
+38 silly resolved        'bower-config': '~0.5.2',
+38 silly resolved        'bower-endpoint-parser': '~0.2.2',
+38 silly resolved        'bower-json': '~0.4.0',
+38 silly resolved        'bower-logger': '~0.2.2',
+38 silly resolved        'bower-registry-client': '~0.2.0',
+38 silly resolved        cardinal: '0.4.0',
+38 silly resolved        chalk: '0.5.0',
+38 silly resolved        chmodr: '0.1.0',
+38 silly resolved        'decompress-zip': '0.0.8',
+38 silly resolved        fstream: '~1.0.2',
+38 silly resolved        'fstream-ignore': '~1.0.1',
+38 silly resolved        glob: '~4.0.2',
+38 silly resolved        'graceful-fs': '~3.0.1',
+38 silly resolved        handlebars: '~2.0.0',
+38 silly resolved        inquirer: '0.7.1',
+38 silly resolved        insight: '0.4.3',
+38 silly resolved        'is-root': '~1.0.0',
+38 silly resolved        junk: '~1.0.0',
+38 silly resolved        lockfile: '~1.0.0',
+38 silly resolved        'lru-cache': '~2.5.0',
+38 silly resolved        mkdirp: '0.5.0',
+38 silly resolved        mout: '~0.9.0',
+38 silly resolved        nopt: '~3.0.0',
+38 silly resolved        opn: '~1.0.0',
+38 silly resolved        osenv: '0.1.0',
+38 silly resolved        'p-throttler': '0.1.0',
+38 silly resolved        promptly: '0.2.0',
+38 silly resolved        q: '~1.0.1',
+38 silly resolved        request: '~2.42.0',
+38 silly resolved        'request-progress': '0.3.0',
+38 silly resolved        retry: '0.6.0',
+38 silly resolved        rimraf: '~2.2.0',
+38 silly resolved        semver: '~2.3.0',
+38 silly resolved        'shell-quote': '~1.4.1',
+38 silly resolved        'stringify-object': '~1.0.0',
+38 silly resolved        'tar-fs': '0.5.2',
+38 silly resolved        tmp: '0.0.23',
+38 silly resolved        'update-notifier': '0.2.0',
+38 silly resolved        which: '~1.0.5' },
+38 silly resolved     devDependencies:
+38 silly resolved      { coveralls: '~2.11.0',
+38 silly resolved        'expect.js': '~0.3.1',
+38 silly resolved        grunt: '~0.4.4',
+38 silly resolved        'grunt-cli': '^0.1.13',
+38 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+38 silly resolved        'grunt-contrib-watch': '~0.6.1',
+38 silly resolved        'grunt-exec': '~0.4.2',
+38 silly resolved        'grunt-simple-mocha': '~0.4.0',
+38 silly resolved        istanbul: '~0.3.2',
+38 silly resolved        'load-grunt-tasks': '~0.6.0',
+38 silly resolved        mocha: '~1.21.4',
+38 silly resolved        nock: '~0.46.0',
+38 silly resolved        'node-uuid': '~1.4.1',
+38 silly resolved        proxyquire: '~1.0.1' },
+38 silly resolved     scripts: { test: 'grunt test' },
+38 silly resolved     bin: { bower: 'bin/bower' },
+38 silly resolved     preferGlobal: true,
+38 silly resolved     gitHead: 'b26c072f0db054a1902ec4d2e3726dbf8a1c799a',
+38 silly resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+38 silly resolved     _id: 'bower@1.3.12',
+38 silly resolved     _shasum: '37de0edb3904baf90aee13384a1a379a05ee214c',
+38 silly resolved     _from: 'bower@^1.3.3',
+38 silly resolved     _npmVersion: '2.0.0',
+38 silly resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+38 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+38 silly resolved     dist:
+38 silly resolved      { shasum: '37de0edb3904baf90aee13384a1a379a05ee214c',
+38 silly resolved        tarball: 'http://registry.npmjs.org/bower/-/bower-1.3.12.tgz' },
+38 silly resolved     directories: {},
+38 silly resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.3.12.tgz',
+38 silly resolved     readme: 'ERROR: No README data found!' } ]
+39 info install bower@1.3.12 into /Users/harrychen/Mobileapps/everythingDB-app
+40 info installOne bower@1.3.12
+41 info /Users/harrychen/Mobileapps/everythingDB-app/node_modules/bower unbuild
+42 verbose tar unpack /Users/harrychen/.npm/bower/1.3.12/package.tgz
+43 silly lockFile 090cd728-rythingDB-app-node-modules-bower tar:///Users/harrychen/Mobileapps/everythingDB-app/node_modules/bower
+44 verbose lock tar:///Users/harrychen/Mobileapps/everythingDB-app/node_modules/bower /Users/harrychen/.npm/090cd728-rythingDB-app-node-modules-bower.lock
+45 silly lockFile d0e49608-hen-npm-bower-1-3-12-package-tgz tar:///Users/harrychen/.npm/bower/1.3.12/package.tgz
+46 verbose lock tar:///Users/harrychen/.npm/bower/1.3.12/package.tgz /Users/harrychen/.npm/d0e49608-hen-npm-bower-1-3-12-package-tgz.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm extractEntry Gruntfile.js
+53 silly gunzTarPerm extractEntry HOOKS.md
+54 silly gunzTarPerm extractEntry CHANGELOG.md
+55 silly gunzTarPerm extractEntry CONTRIBUTING.md
+56 silly gunzTarPerm extractEntry .editorconfig
+57 silly gunzTarPerm extractEntry .jshintrc
+58 silly gunzTarPerm extractEntry bin/bower
+59 silly gunzTarPerm extractEntry lib/config.js
+60 silly gunzTarPerm extractEntry lib/index.js
+61 silly gunzTarPerm extractEntry lib/commands/version.js
+62 silly gunzTarPerm extractEntry lib/commands/info.js
+63 silly gunzTarPerm extractEntry lib/commands/init.js
+64 silly gunzTarPerm extractEntry lib/commands/install.js
+65 silly gunzTarPerm extractEntry lib/commands/index.js
+66 silly gunzTarPerm extractEntry lib/commands/list.js
+67 silly gunzTarPerm extractEntry lib/commands/lookup.js
+68 silly gunzTarPerm extractEntry lib/commands/prune.js
+69 silly gunzTarPerm extractEntry lib/commands/register.js
+70 silly gunzTarPerm extractEntry lib/commands/search.js
+71 silly gunzTarPerm extractEntry lib/commands/home.js
+72 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+73 silly gunzTarPerm extractEntry lib/commands/help.js
+74 silly gunzTarPerm extractEntry lib/commands/update.js
+75 silly gunzTarPerm extractEntry lib/commands/completion.js
+76 silly gunzTarPerm extractEntry lib/commands/link.js
+77 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+78 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+79 silly gunzTarPerm extractEntry lib/core/Manager.js
+80 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+81 silly gunzTarPerm extractEntry lib/core/Project.js
+82 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+83 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+84 silly gunzTarPerm extractEntry lib/core/scripts.js
+85 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+86 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+87 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+88 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+89 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+90 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+91 silly gunzTarPerm extractEntry lib/core/resolvers/SvnResolver.js
+92 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+93 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+94 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+95 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+96 silly gunzTarPerm extractEntry lib/renderers/index.js
+97 silly gunzTarPerm extractEntry lib/util/analytics.js
+98 silly gunzTarPerm extractEntry lib/util/createError.js
+99 silly gunzTarPerm extractEntry lib/util/createLink.js
+100 silly gunzTarPerm extractEntry lib/util/download.js
+101 silly gunzTarPerm extractEntry lib/util/copy.js
+102 silly gunzTarPerm extractEntry lib/util/md5.js
+103 silly gunzTarPerm extractEntry lib/util/readJson.js
+104 silly gunzTarPerm extractEntry lib/util/removeIgnores.js
+105 silly gunzTarPerm extractEntry lib/util/rootCheck.js
+106 silly gunzTarPerm extractEntry lib/util/semver.js
+107 silly gunzTarPerm extractEntry lib/util/cmd.js
+108 silly gunzTarPerm extractEntry lib/util/template.js
+109 silly gunzTarPerm extractEntry lib/util/cli.js
+110 silly gunzTarPerm extractEntry lib/util/validLink.js
+111 silly gunzTarPerm extractEntry lib/util/extract.js
+112 silly gunzTarPerm extractEntry templates/helpers/colors.js
+113 silly gunzTarPerm extractEntry templates/helpers/condense.js
+114 silly gunzTarPerm extractEntry templates/helpers/indent.js
+115 silly gunzTarPerm extractEntry templates/helpers/index.js
+116 silly gunzTarPerm extractEntry templates/helpers/rpad.js
+117 silly gunzTarPerm extractEntry templates/helpers/sum.js
+118 silly gunzTarPerm extractEntry templates/json/help-lookup.json
+119 silly gunzTarPerm extractEntry templates/json/help-cache/clean.json
+120 silly gunzTarPerm extractEntry templates/json/help-cache/list.json
+121 silly gunzTarPerm extractEntry templates/json/help-home.json
+122 silly gunzTarPerm extractEntry templates/json/help-info.json
+123 silly gunzTarPerm extractEntry templates/json/help-init.json
+124 silly gunzTarPerm extractEntry templates/json/help-install.json
+125 silly gunzTarPerm extractEntry templates/json/help-link.json
+126 silly gunzTarPerm extractEntry templates/json/help-list.json
+127 silly gunzTarPerm extractEntry templates/json/help-cache.json
+128 silly gunzTarPerm extractEntry templates/json/help-prune.json
+129 silly gunzTarPerm extractEntry templates/json/help-register.json
+130 silly gunzTarPerm extractEntry templates/json/help-search.json
+131 silly gunzTarPerm extractEntry templates/json/help-uninstall.json
+132 silly gunzTarPerm extractEntry templates/json/help-update.json
+133 silly gunzTarPerm extractEntry templates/json/help-version.json
+134 silly gunzTarPerm extractEntry templates/json/help.json
+135 silly gunzTarPerm extractEntry templates/std/conflict-resolved.std
+136 silly gunzTarPerm extractEntry templates/std/conflict.std
+137 silly gunzTarPerm extractEntry templates/std/help-cache.std
+138 silly gunzTarPerm extractEntry templates/std/help-generic.std
+139 silly gunzTarPerm extractEntry templates/std/help.std
+140 silly gunzTarPerm extractEntry templates/std/info.std
+141 silly gunzTarPerm extractEntry templates/std/lookup.std
+142 silly gunzTarPerm extractEntry templates/std/register.std
+143 silly gunzTarPerm extractEntry templates/std/search-results.std
+144 silly gunzTarPerm extractEntry .travis.yml
+145 silly gunzTarPerm extractEntry test/helpers.js
+146 silly gunzTarPerm extractEntry test/packages-svn.js
+147 silly gunzTarPerm extractEntry test/packages.js
+148 silly gunzTarPerm extractEntry test/test.js
+149 silly gunzTarPerm extractEntry test/packages-svn.json
+150 silly gunzTarPerm extractEntry test/commands/index.js
+151 silly gunzTarPerm extractEntry test/commands/init.js
+152 silly gunzTarPerm extractEntry test/commands/install.js
+153 silly gunzTarPerm extractEntry test/commands/uninstall.js
+154 silly gunzTarPerm extractEntry test/commands/update.js
+155 silly gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+156 silly gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+157 silly gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+158 silly gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+159 silly gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+160 silly gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+161 silly gunzTarPerm extractEntry test/assets/package-zip.zip
+162 silly gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+163 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+164 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+165 silly gunzTarPerm extractEntry test/packages.json
+166 silly gunzTarPerm extractEntry test/core/Manager.js
+167 silly gunzTarPerm extractEntry test/core/packageRepository.js
+168 silly gunzTarPerm extractEntry test/core/resolveCache.js
+169 silly gunzTarPerm extractEntry test/core/resolverFactory.js
+170 silly gunzTarPerm extractEntry test/core/scripts.js
+171 silly gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+172 silly gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+173 silly gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+174 silly gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+175 silly gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+176 silly gunzTarPerm extractEntry test/core/resolvers/resolver.js
+177 silly gunzTarPerm extractEntry test/core/resolvers/svnResolver.js
+178 silly gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+179 silly gunzTarPerm extractEntry test/util/analytics.js
+180 silly gunzTarPerm extractEntry test/util/index.js
+181 silly gunzTarPerm extractEntry test/util/removeIgnores.js
+182 silly lockFile 090cd728-rythingDB-app-node-modules-bower tar:///Users/harrychen/Mobileapps/everythingDB-app/node_modules/bower
+183 silly lockFile 090cd728-rythingDB-app-node-modules-bower tar:///Users/harrychen/Mobileapps/everythingDB-app/node_modules/bower
+184 silly lockFile d0e49608-hen-npm-bower-1-3-12-package-tgz tar:///Users/harrychen/.npm/bower/1.3.12/package.tgz
+185 silly lockFile d0e49608-hen-npm-bower-1-3-12-package-tgz tar:///Users/harrychen/.npm/bower/1.3.12/package.tgz
+186 info preinstall bower@1.3.12
+187 verbose readDependencies using package.json deps
+188 verbose readDependencies using package.json deps
+189 verbose cache add [ 'abbrev@~1.0.4', null ]
+190 verbose cache add name=undefined spec="abbrev@~1.0.4" args=["abbrev@~1.0.4",null]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: 'abbrev@~1.0.4',
+191 verbose parsed url   path: 'abbrev@~1.0.4',
+191 verbose parsed url   href: 'abbrev@~1.0.4' }
+192 verbose cache add [ 'archy@0.0.2', null ]
+193 verbose cache add name=undefined spec="archy@0.0.2" args=["archy@0.0.2",null]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'archy@0.0.2',
+194 verbose parsed url   path: 'archy@0.0.2',
+194 verbose parsed url   href: 'archy@0.0.2' }
+195 verbose cache add name="abbrev" spec="~1.0.4" args=["abbrev","~1.0.4"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '~1.0.4',
+196 verbose parsed url   path: '~1.0.4',
+196 verbose parsed url   href: '~1.0.4' }
+197 verbose addNamed [ 'abbrev', '~1.0.4' ]
+198 verbose addNamed [ null, '>=1.0.4-0 <1.1.0-0' ]
+199 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
+200 verbose lock abbrev@~1.0.4 /Users/harrychen/.npm/efa0e9e0-abbrev-1-0-4.lock
+201 verbose cache add [ 'bower-config@~0.5.2', null ]
+202 verbose cache add name=undefined spec="bower-config@~0.5.2" args=["bower-config@~0.5.2",null]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: 'bower-config@~0.5.2',
+203 verbose parsed url   path: 'bower-config@~0.5.2',
+203 verbose parsed url   href: 'bower-config@~0.5.2' }
+204 verbose cache add [ 'bower-endpoint-parser@~0.2.2', null ]
+205 verbose cache add name=undefined spec="bower-endpoint-parser@~0.2.2" args=["bower-endpoint-parser@~0.2.2",null]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: 'bower-endpoint-parser@~0.2.2',
+206 verbose parsed url   path: 'bower-endpoint-parser@~0.2.2',
+206 verbose parsed url   href: 'bower-endpoint-parser@~0.2.2' }
+207 verbose cache add name="archy" spec="0.0.2" args=["archy","0.0.2"]
+208 verbose parsed url { protocol: null,
+208 verbose parsed url   slashes: null,
+208 verbose parsed url   auth: null,
+208 verbose parsed url   host: null,
+208 verbose parsed url   port: null,
+208 verbose parsed url   hostname: null,
+208 verbose parsed url   hash: null,
+208 verbose parsed url   search: null,
+208 verbose parsed url   query: null,
+208 verbose parsed url   pathname: '0.0.2',
+208 verbose parsed url   path: '0.0.2',
+208 verbose parsed url   href: '0.0.2' }
+209 verbose addNamed [ 'archy', '0.0.2' ]
+210 verbose addNamed [ '0.0.2', '0.0.2' ]
+211 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+212 verbose lock archy@0.0.2 /Users/harrychen/.npm/c97e9070-archy-0-0-2.lock
+213 verbose cache add name="bower-config" spec="~0.5.2" args=["bower-config","~0.5.2"]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: '~0.5.2',
+214 verbose parsed url   path: '~0.5.2',
+214 verbose parsed url   href: '~0.5.2' }
+215 verbose addNamed [ 'bower-config', '~0.5.2' ]
+216 verbose addNamed [ null, '>=0.5.2-0 <0.6.0-0' ]
+217 silly lockFile 6ec0f64b-bower-config-0-5-2 bower-config@~0.5.2
+218 verbose lock bower-config@~0.5.2 /Users/harrychen/.npm/6ec0f64b-bower-config-0-5-2.lock
+219 verbose cache add [ 'bower-json@~0.4.0', null ]
+220 verbose cache add name=undefined spec="bower-json@~0.4.0" args=["bower-json@~0.4.0",null]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: 'bower-json@~0.4.0',
+221 verbose parsed url   path: 'bower-json@~0.4.0',
+221 verbose parsed url   href: 'bower-json@~0.4.0' }
+222 verbose cache add name="bower-endpoint-parser" spec="~0.2.2" args=["bower-endpoint-parser","~0.2.2"]
+223 verbose parsed url { protocol: null,
+223 verbose parsed url   slashes: null,
+223 verbose parsed url   auth: null,
+223 verbose parsed url   host: null,
+223 verbose parsed url   port: null,
+223 verbose parsed url   hostname: null,
+223 verbose parsed url   hash: null,
+223 verbose parsed url   search: null,
+223 verbose parsed url   query: null,
+223 verbose parsed url   pathname: '~0.2.2',
+223 verbose parsed url   path: '~0.2.2',
+223 verbose parsed url   href: '~0.2.2' }
+224 verbose addNamed [ 'bower-endpoint-parser', '~0.2.2' ]
+225 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+226 silly lockFile c23e4b02-bower-endpoint-parser-0-2-2 bower-endpoint-parser@~0.2.2
+227 verbose lock bower-endpoint-parser@~0.2.2 /Users/harrychen/.npm/c23e4b02-bower-endpoint-parser-0-2-2.lock
+228 silly addNameRange { name: 'abbrev', range: '>=1.0.4-0 <1.1.0-0', hasData: false }
+229 verbose cache add name="bower-json" spec="~0.4.0" args=["bower-json","~0.4.0"]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: '~0.4.0',
+230 verbose parsed url   path: '~0.4.0',
+230 verbose parsed url   href: '~0.4.0' }
+231 verbose addNamed [ 'bower-json', '~0.4.0' ]
+232 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+233 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
+234 verbose lock bower-json@~0.4.0 /Users/harrychen/.npm/ea848668-bower-json-0-4-0.lock
+235 verbose cache add [ 'bower-logger@~0.2.2', null ]
+236 verbose cache add name=undefined spec="bower-logger@~0.2.2" args=["bower-logger@~0.2.2",null]
+237 verbose parsed url { protocol: null,
+237 verbose parsed url   slashes: null,
+237 verbose parsed url   auth: null,
+237 verbose parsed url   host: null,
+237 verbose parsed url   port: null,
+237 verbose parsed url   hostname: null,
+237 verbose parsed url   hash: null,
+237 verbose parsed url   search: null,
+237 verbose parsed url   query: null,
+237 verbose parsed url   pathname: 'bower-logger@~0.2.2',
+237 verbose parsed url   path: 'bower-logger@~0.2.2',
+237 verbose parsed url   href: 'bower-logger@~0.2.2' }
+238 verbose cache add [ 'bower-registry-client@~0.2.0', null ]
+239 verbose cache add name=undefined spec="bower-registry-client@~0.2.0" args=["bower-registry-client@~0.2.0",null]
+240 verbose parsed url { protocol: null,
+240 verbose parsed url   slashes: null,
+240 verbose parsed url   auth: null,
+240 verbose parsed url   host: null,
+240 verbose parsed url   port: null,
+240 verbose parsed url   hostname: null,
+240 verbose parsed url   hash: null,
+240 verbose parsed url   search: null,
+240 verbose parsed url   query: null,
+240 verbose parsed url   pathname: 'bower-registry-client@~0.2.0',
+240 verbose parsed url   path: 'bower-registry-client@~0.2.0',
+240 verbose parsed url   href: 'bower-registry-client@~0.2.0' }
+241 silly addNameRange { name: 'bower-config',
+241 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+241 silly addNameRange   hasData: false }
+242 verbose cache add name="bower-logger" spec="~0.2.2" args=["bower-logger","~0.2.2"]
+243 verbose parsed url { protocol: null,
+243 verbose parsed url   slashes: null,
+243 verbose parsed url   auth: null,
+243 verbose parsed url   host: null,
+243 verbose parsed url   port: null,
+243 verbose parsed url   hostname: null,
+243 verbose parsed url   hash: null,
+243 verbose parsed url   search: null,
+243 verbose parsed url   query: null,
+243 verbose parsed url   pathname: '~0.2.2',
+243 verbose parsed url   path: '~0.2.2',
+243 verbose parsed url   href: '~0.2.2' }
+244 verbose addNamed [ 'bower-logger', '~0.2.2' ]
+245 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+246 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
+247 verbose lock bower-logger@~0.2.2 /Users/harrychen/.npm/4dfc8f43-bower-logger-0-2-2.lock
+248 verbose cache add name="bower-registry-client" spec="~0.2.0" args=["bower-registry-client","~0.2.0"]
+249 verbose parsed url { protocol: null,
+249 verbose parsed url   slashes: null,
+249 verbose parsed url   auth: null,
+249 verbose parsed url   host: null,
+249 verbose parsed url   port: null,
+249 verbose parsed url   hostname: null,
+249 verbose parsed url   hash: null,
+249 verbose parsed url   search: null,
+249 verbose parsed url   query: null,
+249 verbose parsed url   pathname: '~0.2.0',
+249 verbose parsed url   path: '~0.2.0',
+249 verbose parsed url   href: '~0.2.0' }
+250 verbose addNamed [ 'bower-registry-client', '~0.2.0' ]
+251 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+252 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
+253 verbose lock bower-registry-client@~0.2.0 /Users/harrychen/.npm/f1b922af-bower-registry-client-0-2-0.lock
+254 verbose cache add [ 'cardinal@0.4.0', null ]
+255 verbose cache add name=undefined spec="cardinal@0.4.0" args=["cardinal@0.4.0",null]
+256 verbose parsed url { protocol: null,
+256 verbose parsed url   slashes: null,
+256 verbose parsed url   auth: null,
+256 verbose parsed url   host: null,
+256 verbose parsed url   port: null,
+256 verbose parsed url   hostname: null,
+256 verbose parsed url   hash: null,
+256 verbose parsed url   search: null,
+256 verbose parsed url   query: null,
+256 verbose parsed url   pathname: 'cardinal@0.4.0',
+256 verbose parsed url   path: 'cardinal@0.4.0',
+256 verbose parsed url   href: 'cardinal@0.4.0' }
+257 verbose cache add [ 'chalk@0.5.0', null ]
+258 verbose cache add name=undefined spec="chalk@0.5.0" args=["chalk@0.5.0",null]
+259 verbose parsed url { protocol: null,
+259 verbose parsed url   slashes: null,
+259 verbose parsed url   auth: null,
+259 verbose parsed url   host: null,
+259 verbose parsed url   port: null,
+259 verbose parsed url   hostname: null,
+259 verbose parsed url   hash: null,
+259 verbose parsed url   search: null,
+259 verbose parsed url   query: null,
+259 verbose parsed url   pathname: 'chalk@0.5.0',
+259 verbose parsed url   path: 'chalk@0.5.0',
+259 verbose parsed url   href: 'chalk@0.5.0' }
+260 verbose cache add [ 'chmodr@0.1.0', null ]
+261 verbose cache add name=undefined spec="chmodr@0.1.0" args=["chmodr@0.1.0",null]
+262 verbose parsed url { protocol: null,
+262 verbose parsed url   slashes: null,
+262 verbose parsed url   auth: null,
+262 verbose parsed url   host: null,
+262 verbose parsed url   port: null,
+262 verbose parsed url   hostname: null,
+262 verbose parsed url   hash: null,
+262 verbose parsed url   search: null,
+262 verbose parsed url   query: null,
+262 verbose parsed url   pathname: 'chmodr@0.1.0',
+262 verbose parsed url   path: 'chmodr@0.1.0',
+262 verbose parsed url   href: 'chmodr@0.1.0' }
+263 silly addNameRange { name: 'bower-endpoint-parser',
+263 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+263 silly addNameRange   hasData: false }
+264 silly addNameRange { name: 'bower-json',
+264 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+264 silly addNameRange   hasData: false }
+265 verbose cache add name="cardinal" spec="0.4.0" args=["cardinal","0.4.0"]
+266 verbose parsed url { protocol: null,
+266 verbose parsed url   slashes: null,
+266 verbose parsed url   auth: null,
+266 verbose parsed url   host: null,
+266 verbose parsed url   port: null,
+266 verbose parsed url   hostname: null,
+266 verbose parsed url   hash: null,
+266 verbose parsed url   search: null,
+266 verbose parsed url   query: null,
+266 verbose parsed url   pathname: '0.4.0',
+266 verbose parsed url   path: '0.4.0',
+266 verbose parsed url   href: '0.4.0' }
+267 verbose addNamed [ 'cardinal', '0.4.0' ]
+268 verbose addNamed [ '0.4.0', '0.4.0' ]
+269 silly lockFile f5578357-cardinal-0-4-0 cardinal@0.4.0
+270 verbose lock cardinal@0.4.0 /Users/harrychen/.npm/f5578357-cardinal-0-4-0.lock
+271 verbose cache add name="chalk" spec="0.5.0" args=["chalk","0.5.0"]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: '0.5.0',
+272 verbose parsed url   path: '0.5.0',
+272 verbose parsed url   href: '0.5.0' }
+273 verbose addNamed [ 'chalk', '0.5.0' ]
+274 verbose addNamed [ '0.5.0', '0.5.0' ]
+275 silly lockFile b1055cc0-chalk-0-5-0 chalk@0.5.0
+276 verbose lock chalk@0.5.0 /Users/harrychen/.npm/b1055cc0-chalk-0-5-0.lock
+277 verbose cache add [ 'decompress-zip@0.0.8', null ]
+278 verbose cache add name=undefined spec="decompress-zip@0.0.8" args=["decompress-zip@0.0.8",null]
+279 verbose parsed url { protocol: null,
+279 verbose parsed url   slashes: null,
+279 verbose parsed url   auth: null,
+279 verbose parsed url   host: null,
+279 verbose parsed url   port: null,
+279 verbose parsed url   hostname: null,
+279 verbose parsed url   hash: null,
+279 verbose parsed url   search: null,
+279 verbose parsed url   query: null,
+279 verbose parsed url   pathname: 'decompress-zip@0.0.8',
+279 verbose parsed url   path: 'decompress-zip@0.0.8',
+279 verbose parsed url   href: 'decompress-zip@0.0.8' }
+280 verbose cache add [ 'fstream@~1.0.2', null ]
+281 verbose cache add name=undefined spec="fstream@~1.0.2" args=["fstream@~1.0.2",null]
+282 verbose parsed url { protocol: null,
+282 verbose parsed url   slashes: null,
+282 verbose parsed url   auth: null,
+282 verbose parsed url   host: null,
+282 verbose parsed url   port: null,
+282 verbose parsed url   hostname: null,
+282 verbose parsed url   hash: null,
+282 verbose parsed url   search: null,
+282 verbose parsed url   query: null,
+282 verbose parsed url   pathname: 'fstream@~1.0.2',
+282 verbose parsed url   path: 'fstream@~1.0.2',
+282 verbose parsed url   href: 'fstream@~1.0.2' }
+283 verbose cache add [ 'fstream-ignore@~1.0.1', null ]
+284 verbose cache add name=undefined spec="fstream-ignore@~1.0.1" args=["fstream-ignore@~1.0.1",null]
+285 verbose parsed url { protocol: null,
+285 verbose parsed url   slashes: null,
+285 verbose parsed url   auth: null,
+285 verbose parsed url   host: null,
+285 verbose parsed url   port: null,
+285 verbose parsed url   hostname: null,
+285 verbose parsed url   hash: null,
+285 verbose parsed url   search: null,
+285 verbose parsed url   query: null,
+285 verbose parsed url   pathname: 'fstream-ignore@~1.0.1',
+285 verbose parsed url   path: 'fstream-ignore@~1.0.1',
+285 verbose parsed url   href: 'fstream-ignore@~1.0.1' }
+286 verbose cache add name="chmodr" spec="0.1.0" args=["chmodr","0.1.0"]
+287 verbose parsed url { protocol: null,
+287 verbose parsed url   slashes: null,
+287 verbose parsed url   auth: null,
+287 verbose parsed url   host: null,
+287 verbose parsed url   port: null,
+287 verbose parsed url   hostname: null,
+287 verbose parsed url   hash: null,
+287 verbose parsed url   search: null,
+287 verbose parsed url   query: null,
+287 verbose parsed url   pathname: '0.1.0',
+287 verbose parsed url   path: '0.1.0',
+287 verbose parsed url   href: '0.1.0' }
+288 verbose addNamed [ 'chmodr', '0.1.0' ]
+289 verbose addNamed [ '0.1.0', '0.1.0' ]
+290 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+291 verbose lock chmodr@0.1.0 /Users/harrychen/.npm/3c50e6b3-chmodr-0-1-0.lock
+292 silly addNameRange { name: 'bower-logger',
+292 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+292 silly addNameRange   hasData: false }
+293 silly addNameRange { name: 'bower-registry-client',
+293 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+293 silly addNameRange   hasData: false }
+294 verbose cache add name="decompress-zip" spec="0.0.8" args=["decompress-zip","0.0.8"]
+295 verbose parsed url { protocol: null,
+295 verbose parsed url   slashes: null,
+295 verbose parsed url   auth: null,
+295 verbose parsed url   host: null,
+295 verbose parsed url   port: null,
+295 verbose parsed url   hostname: null,
+295 verbose parsed url   hash: null,
+295 verbose parsed url   search: null,
+295 verbose parsed url   query: null,
+295 verbose parsed url   pathname: '0.0.8',
+295 verbose parsed url   path: '0.0.8',
+295 verbose parsed url   href: '0.0.8' }
+296 verbose addNamed [ 'decompress-zip', '0.0.8' ]
+297 verbose addNamed [ '0.0.8', '0.0.8' ]
+298 silly lockFile 7a56c733-decompress-zip-0-0-8 decompress-zip@0.0.8
+299 verbose lock decompress-zip@0.0.8 /Users/harrychen/.npm/7a56c733-decompress-zip-0-0-8.lock
+300 verbose cache add name="fstream" spec="~1.0.2" args=["fstream","~1.0.2"]
+301 verbose parsed url { protocol: null,
+301 verbose parsed url   slashes: null,
+301 verbose parsed url   auth: null,
+301 verbose parsed url   host: null,
+301 verbose parsed url   port: null,
+301 verbose parsed url   hostname: null,
+301 verbose parsed url   hash: null,
+301 verbose parsed url   search: null,
+301 verbose parsed url   query: null,
+301 verbose parsed url   pathname: '~1.0.2',
+301 verbose parsed url   path: '~1.0.2',
+301 verbose parsed url   href: '~1.0.2' }
+302 verbose addNamed [ 'fstream', '~1.0.2' ]
+303 verbose addNamed [ null, '>=1.0.2-0 <1.1.0-0' ]
+304 silly lockFile bada8ba0-fstream-1-0-2 fstream@~1.0.2
+305 verbose lock fstream@~1.0.2 /Users/harrychen/.npm/bada8ba0-fstream-1-0-2.lock
+306 verbose cache add name="fstream-ignore" spec="~1.0.1" args=["fstream-ignore","~1.0.1"]
+307 verbose parsed url { protocol: null,
+307 verbose parsed url   slashes: null,
+307 verbose parsed url   auth: null,
+307 verbose parsed url   host: null,
+307 verbose parsed url   port: null,
+307 verbose parsed url   hostname: null,
+307 verbose parsed url   hash: null,
+307 verbose parsed url   search: null,
+307 verbose parsed url   query: null,
+307 verbose parsed url   pathname: '~1.0.1',
+307 verbose parsed url   path: '~1.0.1',
+307 verbose parsed url   href: '~1.0.1' }
+308 verbose addNamed [ 'fstream-ignore', '~1.0.1' ]
+309 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+310 silly lockFile 4e461ac0-fstream-ignore-1-0-1 fstream-ignore@~1.0.1
+311 verbose lock fstream-ignore@~1.0.1 /Users/harrychen/.npm/4e461ac0-fstream-ignore-1-0-1.lock
+312 verbose cache add [ 'glob@~4.0.2', null ]
+313 verbose cache add name=undefined spec="glob@~4.0.2" args=["glob@~4.0.2",null]
+314 verbose parsed url { protocol: null,
+314 verbose parsed url   slashes: null,
+314 verbose parsed url   auth: null,
+314 verbose parsed url   host: null,
+314 verbose parsed url   port: null,
+314 verbose parsed url   hostname: null,
+314 verbose parsed url   hash: null,
+314 verbose parsed url   search: null,
+314 verbose parsed url   query: null,
+314 verbose parsed url   pathname: 'glob@~4.0.2',
+314 verbose parsed url   path: 'glob@~4.0.2',
+314 verbose parsed url   href: 'glob@~4.0.2' }
+315 verbose cache add [ 'graceful-fs@~3.0.1', null ]
+316 verbose cache add name=undefined spec="graceful-fs@~3.0.1" args=["graceful-fs@~3.0.1",null]
+317 verbose parsed url { protocol: null,
+317 verbose parsed url   slashes: null,
+317 verbose parsed url   auth: null,
+317 verbose parsed url   host: null,
+317 verbose parsed url   port: null,
+317 verbose parsed url   hostname: null,
+317 verbose parsed url   hash: null,
+317 verbose parsed url   search: null,
+317 verbose parsed url   query: null,
+317 verbose parsed url   pathname: 'graceful-fs@~3.0.1',
+317 verbose parsed url   path: 'graceful-fs@~3.0.1',
+317 verbose parsed url   href: 'graceful-fs@~3.0.1' }
+318 verbose cache add [ 'handlebars@~2.0.0', null ]
+319 verbose cache add name=undefined spec="handlebars@~2.0.0" args=["handlebars@~2.0.0",null]
+320 verbose parsed url { protocol: null,
+320 verbose parsed url   slashes: null,
+320 verbose parsed url   auth: null,
+320 verbose parsed url   host: null,
+320 verbose parsed url   port: null,
+320 verbose parsed url   hostname: null,
+320 verbose parsed url   hash: null,
+320 verbose parsed url   search: null,
+320 verbose parsed url   query: null,
+320 verbose parsed url   pathname: 'handlebars@~2.0.0',
+320 verbose parsed url   path: 'handlebars@~2.0.0',
+320 verbose parsed url   href: 'handlebars@~2.0.0' }
+321 verbose cache add [ 'inquirer@0.7.1', null ]
+322 verbose cache add name=undefined spec="inquirer@0.7.1" args=["inquirer@0.7.1",null]
+323 verbose parsed url { protocol: null,
+323 verbose parsed url   slashes: null,
+323 verbose parsed url   auth: null,
+323 verbose parsed url   host: null,
+323 verbose parsed url   port: null,
+323 verbose parsed url   hostname: null,
+323 verbose parsed url   hash: null,
+323 verbose parsed url   search: null,
+323 verbose parsed url   query: null,
+323 verbose parsed url   pathname: 'inquirer@0.7.1',
+323 verbose parsed url   path: 'inquirer@0.7.1',
+323 verbose parsed url   href: 'inquirer@0.7.1' }
+324 verbose cache add name="glob" spec="~4.0.2" args=["glob","~4.0.2"]
+325 verbose parsed url { protocol: null,
+325 verbose parsed url   slashes: null,
+325 verbose parsed url   auth: null,
+325 verbose parsed url   host: null,
+325 verbose parsed url   port: null,
+325 verbose parsed url   hostname: null,
+325 verbose parsed url   hash: null,
+325 verbose parsed url   search: null,
+325 verbose parsed url   query: null,
+325 verbose parsed url   pathname: '~4.0.2',
+325 verbose parsed url   path: '~4.0.2',
+325 verbose parsed url   href: '~4.0.2' }
+326 verbose addNamed [ 'glob', '~4.0.2' ]
+327 verbose addNamed [ null, '>=4.0.2-0 <4.1.0-0' ]
+328 silly lockFile 93e00600-glob-4-0-2 glob@~4.0.2
+329 verbose lock glob@~4.0.2 /Users/harrychen/.npm/93e00600-glob-4-0-2.lock
+330 verbose cache add name="graceful-fs" spec="~3.0.1" args=["graceful-fs","~3.0.1"]
+331 verbose parsed url { protocol: null,
+331 verbose parsed url   slashes: null,
+331 verbose parsed url   auth: null,
+331 verbose parsed url   host: null,
+331 verbose parsed url   port: null,
+331 verbose parsed url   hostname: null,
+331 verbose parsed url   hash: null,
+331 verbose parsed url   search: null,
+331 verbose parsed url   query: null,
+331 verbose parsed url   pathname: '~3.0.1',
+331 verbose parsed url   path: '~3.0.1',
+331 verbose parsed url   href: '~3.0.1' }
+332 verbose addNamed [ 'graceful-fs', '~3.0.1' ]
+333 verbose addNamed [ null, '>=3.0.1-0 <3.1.0-0' ]
+334 silly lockFile 901920ca-graceful-fs-3-0-1 graceful-fs@~3.0.1
+335 verbose lock graceful-fs@~3.0.1 /Users/harrychen/.npm/901920ca-graceful-fs-3-0-1.lock
+336 verbose cache add name="handlebars" spec="~2.0.0" args=["handlebars","~2.0.0"]
+337 verbose parsed url { protocol: null,
+337 verbose parsed url   slashes: null,
+337 verbose parsed url   auth: null,
+337 verbose parsed url   host: null,
+337 verbose parsed url   port: null,
+337 verbose parsed url   hostname: null,
+337 verbose parsed url   hash: null,
+337 verbose parsed url   search: null,
+337 verbose parsed url   query: null,
+337 verbose parsed url   pathname: '~2.0.0',
+337 verbose parsed url   path: '~2.0.0',
+337 verbose parsed url   href: '~2.0.0' }
+338 verbose addNamed [ 'handlebars', '~2.0.0' ]
+339 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+340 silly lockFile 917ab67d-handlebars-2-0-0 handlebars@~2.0.0
+341 verbose lock handlebars@~2.0.0 /Users/harrychen/.npm/917ab67d-handlebars-2-0-0.lock
+342 verbose cache add name="inquirer" spec="0.7.1" args=["inquirer","0.7.1"]
+343 verbose parsed url { protocol: null,
+343 verbose parsed url   slashes: null,
+343 verbose parsed url   auth: null,
+343 verbose parsed url   host: null,
+343 verbose parsed url   port: null,
+343 verbose parsed url   hostname: null,
+343 verbose parsed url   hash: null,
+343 verbose parsed url   search: null,
+343 verbose parsed url   query: null,
+343 verbose parsed url   pathname: '0.7.1',
+343 verbose parsed url   path: '0.7.1',
+343 verbose parsed url   href: '0.7.1' }
+344 verbose addNamed [ 'inquirer', '0.7.1' ]
+345 verbose addNamed [ '0.7.1', '0.7.1' ]
+346 silly lockFile 07877a53-inquirer-0-7-1 inquirer@0.7.1
+347 verbose lock inquirer@0.7.1 /Users/harrychen/.npm/07877a53-inquirer-0-7-1.lock
+348 verbose cache add [ 'insight@0.4.3', null ]
+349 verbose cache add name=undefined spec="insight@0.4.3" args=["insight@0.4.3",null]
+350 verbose parsed url { protocol: null,
+350 verbose parsed url   slashes: null,
+350 verbose parsed url   auth: null,
+350 verbose parsed url   host: null,
+350 verbose parsed url   port: null,
+350 verbose parsed url   hostname: null,
+350 verbose parsed url   hash: null,
+350 verbose parsed url   search: null,
+350 verbose parsed url   query: null,
+350 verbose parsed url   pathname: 'insight@0.4.3',
+350 verbose parsed url   path: 'insight@0.4.3',
+350 verbose parsed url   href: 'insight@0.4.3' }
+351 verbose cache add [ 'is-root@~1.0.0', null ]
+352 verbose cache add name=undefined spec="is-root@~1.0.0" args=["is-root@~1.0.0",null]
+353 verbose parsed url { protocol: null,
+353 verbose parsed url   slashes: null,
+353 verbose parsed url   auth: null,
+353 verbose parsed url   host: null,
+353 verbose parsed url   port: null,
+353 verbose parsed url   hostname: null,
+353 verbose parsed url   hash: null,
+353 verbose parsed url   search: null,
+353 verbose parsed url   query: null,
+353 verbose parsed url   pathname: 'is-root@~1.0.0',
+353 verbose parsed url   path: 'is-root@~1.0.0',
+353 verbose parsed url   href: 'is-root@~1.0.0' }
+354 verbose cache add [ 'junk@~1.0.0', null ]
+355 verbose cache add name=undefined spec="junk@~1.0.0" args=["junk@~1.0.0",null]
+356 verbose parsed url { protocol: null,
+356 verbose parsed url   slashes: null,
+356 verbose parsed url   auth: null,
+356 verbose parsed url   host: null,
+356 verbose parsed url   port: null,
+356 verbose parsed url   hostname: null,
+356 verbose parsed url   hash: null,
+356 verbose parsed url   search: null,
+356 verbose parsed url   query: null,
+356 verbose parsed url   pathname: 'junk@~1.0.0',
+356 verbose parsed url   path: 'junk@~1.0.0',
+356 verbose parsed url   href: 'junk@~1.0.0' }
+357 verbose registry.get abbrev not expired, no request
+358 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.4-0 <1.1.0-0', hasData: true }
+359 silly addNameRange versions [ 'abbrev', [ '1.0.3', '1.0.4', '1.0.5' ] ]
+360 verbose addNamed [ 'abbrev', '1.0.5' ]
+361 verbose addNamed [ '1.0.5', '1.0.5' ]
+362 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+363 verbose lock abbrev@1.0.5 /Users/harrychen/.npm/55d90b2f-abbrev-1-0-5.lock
+364 silly addNameRange { name: 'fstream', range: '>=1.0.2-0 <1.1.0-0', hasData: false }
+365 silly addNameRange { name: 'fstream-ignore',
+365 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+365 silly addNameRange   hasData: false }
+366 verbose cache add name="insight" spec="0.4.3" args=["insight","0.4.3"]
+367 verbose parsed url { protocol: null,
+367 verbose parsed url   slashes: null,
+367 verbose parsed url   auth: null,
+367 verbose parsed url   host: null,
+367 verbose parsed url   port: null,
+367 verbose parsed url   hostname: null,
+367 verbose parsed url   hash: null,
+367 verbose parsed url   search: null,
+367 verbose parsed url   query: null,
+367 verbose parsed url   pathname: '0.4.3',
+367 verbose parsed url   path: '0.4.3',
+367 verbose parsed url   href: '0.4.3' }
+368 verbose addNamed [ 'insight', '0.4.3' ]
+369 verbose addNamed [ '0.4.3', '0.4.3' ]
+370 silly lockFile da4675d5-insight-0-4-3 insight@0.4.3
+371 verbose lock insight@0.4.3 /Users/harrychen/.npm/da4675d5-insight-0-4-3.lock
+372 verbose cache add name="is-root" spec="~1.0.0" args=["is-root","~1.0.0"]
+373 verbose parsed url { protocol: null,
+373 verbose parsed url   slashes: null,
+373 verbose parsed url   auth: null,
+373 verbose parsed url   host: null,
+373 verbose parsed url   port: null,
+373 verbose parsed url   hostname: null,
+373 verbose parsed url   hash: null,
+373 verbose parsed url   search: null,
+373 verbose parsed url   query: null,
+373 verbose parsed url   pathname: '~1.0.0',
+373 verbose parsed url   path: '~1.0.0',
+373 verbose parsed url   href: '~1.0.0' }
+374 verbose addNamed [ 'is-root', '~1.0.0' ]
+375 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+376 silly lockFile 53c35513-is-root-1-0-0 is-root@~1.0.0
+377 verbose lock is-root@~1.0.0 /Users/harrychen/.npm/53c35513-is-root-1-0-0.lock
+378 verbose cache add name="junk" spec="~1.0.0" args=["junk","~1.0.0"]
+379 verbose parsed url { protocol: null,
+379 verbose parsed url   slashes: null,
+379 verbose parsed url   auth: null,
+379 verbose parsed url   host: null,
+379 verbose parsed url   port: null,
+379 verbose parsed url   hostname: null,
+379 verbose parsed url   hash: null,
+379 verbose parsed url   search: null,
+379 verbose parsed url   query: null,
+379 verbose parsed url   pathname: '~1.0.0',
+379 verbose parsed url   path: '~1.0.0',
+379 verbose parsed url   href: '~1.0.0' }
+380 verbose addNamed [ 'junk', '~1.0.0' ]
+381 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+382 silly lockFile e4e462ce-junk-1-0-0 junk@~1.0.0
+383 verbose lock junk@~1.0.0 /Users/harrychen/.npm/e4e462ce-junk-1-0-0.lock
+384 verbose cache add [ 'lockfile@~1.0.0', null ]
+385 verbose cache add name=undefined spec="lockfile@~1.0.0" args=["lockfile@~1.0.0",null]
+386 verbose parsed url { protocol: null,
+386 verbose parsed url   slashes: null,
+386 verbose parsed url   auth: null,
+386 verbose parsed url   host: null,
+386 verbose parsed url   port: null,
+386 verbose parsed url   hostname: null,
+386 verbose parsed url   hash: null,
+386 verbose parsed url   search: null,
+386 verbose parsed url   query: null,
+386 verbose parsed url   pathname: 'lockfile@~1.0.0',
+386 verbose parsed url   path: 'lockfile@~1.0.0',
+386 verbose parsed url   href: 'lockfile@~1.0.0' }
+387 verbose cache add [ 'lru-cache@~2.5.0', null ]
+388 verbose cache add name=undefined spec="lru-cache@~2.5.0" args=["lru-cache@~2.5.0",null]
+389 verbose parsed url { protocol: null,
+389 verbose parsed url   slashes: null,
+389 verbose parsed url   auth: null,
+389 verbose parsed url   host: null,
+389 verbose parsed url   port: null,
+389 verbose parsed url   hostname: null,
+389 verbose parsed url   hash: null,
+389 verbose parsed url   search: null,
+389 verbose parsed url   query: null,
+389 verbose parsed url   pathname: 'lru-cache@~2.5.0',
+389 verbose parsed url   path: 'lru-cache@~2.5.0',
+389 verbose parsed url   href: 'lru-cache@~2.5.0' }
+390 verbose cache add [ 'mkdirp@0.5.0', null ]
+391 verbose cache add name=undefined spec="mkdirp@0.5.0" args=["mkdirp@0.5.0",null]
+392 verbose parsed url { protocol: null,
+392 verbose parsed url   slashes: null,
+392 verbose parsed url   auth: null,
+392 verbose parsed url   host: null,
+392 verbose parsed url   port: null,
+392 verbose parsed url   hostname: null,
+392 verbose parsed url   hash: null,
+392 verbose parsed url   search: null,
+392 verbose parsed url   query: null,
+392 verbose parsed url   pathname: 'mkdirp@0.5.0',
+392 verbose parsed url   path: 'mkdirp@0.5.0',
+392 verbose parsed url   href: 'mkdirp@0.5.0' }
+393 verbose cache add [ 'mout@~0.9.0', null ]
+394 verbose cache add name=undefined spec="mout@~0.9.0" args=["mout@~0.9.0",null]
+395 verbose parsed url { protocol: null,
+395 verbose parsed url   slashes: null,
+395 verbose parsed url   auth: null,
+395 verbose parsed url   host: null,
+395 verbose parsed url   port: null,
+395 verbose parsed url   hostname: null,
+395 verbose parsed url   hash: null,
+395 verbose parsed url   search: null,
+395 verbose parsed url   query: null,
+395 verbose parsed url   pathname: 'mout@~0.9.0',
+395 verbose parsed url   path: 'mout@~0.9.0',
+395 verbose parsed url   href: 'mout@~0.9.0' }
+396 verbose cache add [ 'nopt@~3.0.0', null ]
+397 verbose cache add name=undefined spec="nopt@~3.0.0" args=["nopt@~3.0.0",null]
+398 verbose parsed url { protocol: null,
+398 verbose parsed url   slashes: null,
+398 verbose parsed url   auth: null,
+398 verbose parsed url   host: null,
+398 verbose parsed url   port: null,
+398 verbose parsed url   hostname: null,
+398 verbose parsed url   hash: null,
+398 verbose parsed url   search: null,
+398 verbose parsed url   query: null,
+398 verbose parsed url   pathname: 'nopt@~3.0.0',
+398 verbose parsed url   path: 'nopt@~3.0.0',
+398 verbose parsed url   href: 'nopt@~3.0.0' }
+399 verbose cache add [ 'opn@~1.0.0', null ]
+400 verbose cache add name=undefined spec="opn@~1.0.0" args=["opn@~1.0.0",null]
+401 verbose parsed url { protocol: null,
+401 verbose parsed url   slashes: null,
+401 verbose parsed url   auth: null,
+401 verbose parsed url   host: null,
+401 verbose parsed url   port: null,
+401 verbose parsed url   hostname: null,
+401 verbose parsed url   hash: null,
+401 verbose parsed url   search: null,
+401 verbose parsed url   query: null,
+401 verbose parsed url   pathname: 'opn@~1.0.0',
+401 verbose parsed url   path: 'opn@~1.0.0',
+401 verbose parsed url   href: 'opn@~1.0.0' }
+402 verbose cache add [ 'osenv@0.1.0', null ]
+403 verbose cache add name=undefined spec="osenv@0.1.0" args=["osenv@0.1.0",null]
+404 verbose parsed url { protocol: null,
+404 verbose parsed url   slashes: null,
+404 verbose parsed url   auth: null,
+404 verbose parsed url   host: null,
+404 verbose parsed url   port: null,
+404 verbose parsed url   hostname: null,
+404 verbose parsed url   hash: null,
+404 verbose parsed url   search: null,
+404 verbose parsed url   query: null,
+404 verbose parsed url   pathname: 'osenv@0.1.0',
+404 verbose parsed url   path: 'osenv@0.1.0',
+404 verbose parsed url   href: 'osenv@0.1.0' }
+405 verbose registry.get archy not expired, no request
+406 verbose registry.get bower-config not expired, no request
+407 silly addNameRange number 2 { name: 'bower-config',
+407 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+407 silly addNameRange   hasData: true }
+408 silly addNameRange versions [ 'bower-config',
+408 silly addNameRange   [ '0.1.0-rc.1',
+408 silly addNameRange     '0.1.0-rc.2',
+408 silly addNameRange     '0.1.0-rc.3',
+408 silly addNameRange     '0.1.0-rc.4',
+408 silly addNameRange     '0.1.0-rc.5',
+408 silly addNameRange     '0.2.0-rc.1',
+408 silly addNameRange     '0.2.0-rc.2',
+408 silly addNameRange     '0.3.0',
+408 silly addNameRange     '0.3.1',
+408 silly addNameRange     '0.3.3',
+408 silly addNameRange     '0.3.4',
+408 silly addNameRange     '0.3.5',
+408 silly addNameRange     '0.4.0',
+408 silly addNameRange     '0.4.1',
+408 silly addNameRange     '0.4.2',
+408 silly addNameRange     '0.4.3',
+408 silly addNameRange     '0.4.4',
+408 silly addNameRange     '0.4.5',
+408 silly addNameRange     '0.5.0',
+408 silly addNameRange     '0.5.1',
+408 silly addNameRange     '0.5.2' ] ]
+409 verbose addNamed [ 'bower-config', '0.5.2' ]
+410 verbose addNamed [ '0.5.2', '0.5.2' ]
+411 silly lockFile c7a59e04-bower-config-0-5-2 bower-config@0.5.2
+412 verbose lock bower-config@0.5.2 /Users/harrychen/.npm/c7a59e04-bower-config-0-5-2.lock
+413 silly addNameRange { name: 'glob', range: '>=4.0.2-0 <4.1.0-0', hasData: false }
+414 silly addNameRange { name: 'graceful-fs',
+414 silly addNameRange   range: '>=3.0.1-0 <3.1.0-0',
+414 silly addNameRange   hasData: false }
+415 silly addNameRange { name: 'handlebars',
+415 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+415 silly addNameRange   hasData: false }
+416 verbose cache add name="lockfile" spec="~1.0.0" args=["lockfile","~1.0.0"]
+417 verbose parsed url { protocol: null,
+417 verbose parsed url   slashes: null,
+417 verbose parsed url   auth: null,
+417 verbose parsed url   host: null,
+417 verbose parsed url   port: null,
+417 verbose parsed url   hostname: null,
+417 verbose parsed url   hash: null,
+417 verbose parsed url   search: null,
+417 verbose parsed url   query: null,
+417 verbose parsed url   pathname: '~1.0.0',
+417 verbose parsed url   path: '~1.0.0',
+417 verbose parsed url   href: '~1.0.0' }
+418 verbose addNamed [ 'lockfile', '~1.0.0' ]
+419 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+420 silly lockFile af6d2126-lockfile-1-0-0 lockfile@~1.0.0
+421 verbose lock lockfile@~1.0.0 /Users/harrychen/.npm/af6d2126-lockfile-1-0-0.lock
+422 verbose cache add name="lru-cache" spec="~2.5.0" args=["lru-cache","~2.5.0"]
+423 verbose parsed url { protocol: null,
+423 verbose parsed url   slashes: null,
+423 verbose parsed url   auth: null,
+423 verbose parsed url   host: null,
+423 verbose parsed url   port: null,
+423 verbose parsed url   hostname: null,
+423 verbose parsed url   hash: null,
+423 verbose parsed url   search: null,
+423 verbose parsed url   query: null,
+423 verbose parsed url   pathname: '~2.5.0',
+423 verbose parsed url   path: '~2.5.0',
+423 verbose parsed url   href: '~2.5.0' }
+424 verbose addNamed [ 'lru-cache', '~2.5.0' ]
+425 verbose addNamed [ null, '>=2.5.0-0 <2.6.0-0' ]
+426 silly lockFile d9ec30b5-lru-cache-2-5-0 lru-cache@~2.5.0
+427 verbose lock lru-cache@~2.5.0 /Users/harrychen/.npm/d9ec30b5-lru-cache-2-5-0.lock
+428 verbose cache add name="mkdirp" spec="0.5.0" args=["mkdirp","0.5.0"]
+429 verbose parsed url { protocol: null,
+429 verbose parsed url   slashes: null,
+429 verbose parsed url   auth: null,
+429 verbose parsed url   host: null,
+429 verbose parsed url   port: null,
+429 verbose parsed url   hostname: null,
+429 verbose parsed url   hash: null,
+429 verbose parsed url   search: null,
+429 verbose parsed url   query: null,
+429 verbose parsed url   pathname: '0.5.0',
+429 verbose parsed url   path: '0.5.0',
+429 verbose parsed url   href: '0.5.0' }
+430 verbose addNamed [ 'mkdirp', '0.5.0' ]
+431 verbose addNamed [ '0.5.0', '0.5.0' ]
+432 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+433 verbose lock mkdirp@0.5.0 /Users/harrychen/.npm/bf9ae38d-mkdirp-0-5-0.lock
+434 verbose cache add name="mout" spec="~0.9.0" args=["mout","~0.9.0"]
+435 verbose parsed url { protocol: null,
+435 verbose parsed url   slashes: null,
+435 verbose parsed url   auth: null,
+435 verbose parsed url   host: null,
+435 verbose parsed url   port: null,
+435 verbose parsed url   hostname: null,
+435 verbose parsed url   hash: null,
+435 verbose parsed url   search: null,
+435 verbose parsed url   query: null,
+435 verbose parsed url   pathname: '~0.9.0',
+435 verbose parsed url   path: '~0.9.0',
+435 verbose parsed url   href: '~0.9.0' }
+436 verbose addNamed [ 'mout', '~0.9.0' ]
+437 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+438 silly lockFile 5ca20e6e-mout-0-9-0 mout@~0.9.0
+439 verbose lock mout@~0.9.0 /Users/harrychen/.npm/5ca20e6e-mout-0-9-0.lock
+440 verbose cache add name="nopt" spec="~3.0.0" args=["nopt","~3.0.0"]
+441 verbose parsed url { protocol: null,
+441 verbose parsed url   slashes: null,
+441 verbose parsed url   auth: null,
+441 verbose parsed url   host: null,
+441 verbose parsed url   port: null,
+441 verbose parsed url   hostname: null,
+441 verbose parsed url   hash: null,
+441 verbose parsed url   search: null,
+441 verbose parsed url   query: null,
+441 verbose parsed url   pathname: '~3.0.0',
+441 verbose parsed url   path: '~3.0.0',
+441 verbose parsed url   href: '~3.0.0' }
+442 verbose addNamed [ 'nopt', '~3.0.0' ]
+443 verbose addNamed [ null, '>=3.0.0-0 <3.1.0-0' ]
+444 silly lockFile 9be750cb-nopt-3-0-0 nopt@~3.0.0
+445 verbose lock nopt@~3.0.0 /Users/harrychen/.npm/9be750cb-nopt-3-0-0.lock
+446 verbose cache add name="opn" spec="~1.0.0" args=["opn","~1.0.0"]
+447 verbose parsed url { protocol: null,
+447 verbose parsed url   slashes: null,
+447 verbose parsed url   auth: null,
+447 verbose parsed url   host: null,
+447 verbose parsed url   port: null,
+447 verbose parsed url   hostname: null,
+447 verbose parsed url   hash: null,
+447 verbose parsed url   search: null,
+447 verbose parsed url   query: null,
+447 verbose parsed url   pathname: '~1.0.0',
+447 verbose parsed url   path: '~1.0.0',
+447 verbose parsed url   href: '~1.0.0' }
+448 verbose addNamed [ 'opn', '~1.0.0' ]
+449 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+450 silly lockFile 008c9731-opn-1-0-0 opn@~1.0.0
+451 verbose lock opn@~1.0.0 /Users/harrychen/.npm/008c9731-opn-1-0-0.lock
+452 verbose cache add name="osenv" spec="0.1.0" args=["osenv","0.1.0"]
+453 verbose parsed url { protocol: null,
+453 verbose parsed url   slashes: null,
+453 verbose parsed url   auth: null,
+453 verbose parsed url   host: null,
+453 verbose parsed url   port: null,
+453 verbose parsed url   hostname: null,
+453 verbose parsed url   hash: null,
+453 verbose parsed url   search: null,
+453 verbose parsed url   query: null,
+453 verbose parsed url   pathname: '0.1.0',
+453 verbose parsed url   path: '0.1.0',
+453 verbose parsed url   href: '0.1.0' }
+454 verbose addNamed [ 'osenv', '0.1.0' ]
+455 verbose addNamed [ '0.1.0', '0.1.0' ]
+456 silly lockFile 8f25476a-osenv-0-1-0 osenv@0.1.0
+457 verbose lock osenv@0.1.0 /Users/harrychen/.npm/8f25476a-osenv-0-1-0.lock
+458 verbose cache add [ 'p-throttler@0.1.0', null ]
+459 verbose cache add name=undefined spec="p-throttler@0.1.0" args=["p-throttler@0.1.0",null]
+460 verbose parsed url { protocol: null,
+460 verbose parsed url   slashes: null,
+460 verbose parsed url   auth: null,
+460 verbose parsed url   host: null,
+460 verbose parsed url   port: null,
+460 verbose parsed url   hostname: null,
+460 verbose parsed url   hash: null,
+460 verbose parsed url   search: null,
+460 verbose parsed url   query: null,
+460 verbose parsed url   pathname: 'p-throttler@0.1.0',
+460 verbose parsed url   path: 'p-throttler@0.1.0',
+460 verbose parsed url   href: 'p-throttler@0.1.0' }
+461 verbose cache add [ 'promptly@0.2.0', null ]
+462 verbose cache add name=undefined spec="promptly@0.2.0" args=["promptly@0.2.0",null]
+463 verbose parsed url { protocol: null,
+463 verbose parsed url   slashes: null,
+463 verbose parsed url   auth: null,
+463 verbose parsed url   host: null,
+463 verbose parsed url   port: null,
+463 verbose parsed url   hostname: null,
+463 verbose parsed url   hash: null,
+463 verbose parsed url   search: null,
+463 verbose parsed url   query: null,
+463 verbose parsed url   pathname: 'promptly@0.2.0',
+463 verbose parsed url   path: 'promptly@0.2.0',
+463 verbose parsed url   href: 'promptly@0.2.0' }
+464 verbose cache add [ 'q@~1.0.1', null ]
+465 verbose cache add name=undefined spec="q@~1.0.1" args=["q@~1.0.1",null]
+466 verbose parsed url { protocol: null,
+466 verbose parsed url   slashes: null,
+466 verbose parsed url   auth: null,
+466 verbose parsed url   host: null,
+466 verbose parsed url   port: null,
+466 verbose parsed url   hostname: null,
+466 verbose parsed url   hash: null,
+466 verbose parsed url   search: null,
+466 verbose parsed url   query: null,
+466 verbose parsed url   pathname: 'q@~1.0.1',
+466 verbose parsed url   path: 'q@~1.0.1',
+466 verbose parsed url   href: 'q@~1.0.1' }
+467 verbose cache add [ 'request@~2.42.0', null ]
+468 verbose cache add name=undefined spec="request@~2.42.0" args=["request@~2.42.0",null]
+469 verbose parsed url { protocol: null,
+469 verbose parsed url   slashes: null,
+469 verbose parsed url   auth: null,
+469 verbose parsed url   host: null,
+469 verbose parsed url   port: null,
+469 verbose parsed url   hostname: null,
+469 verbose parsed url   hash: null,
+469 verbose parsed url   search: null,
+469 verbose parsed url   query: null,
+469 verbose parsed url   pathname: 'request@~2.42.0',
+469 verbose parsed url   path: 'request@~2.42.0',
+469 verbose parsed url   href: 'request@~2.42.0' }
+470 verbose cache add [ 'request-progress@0.3.0', null ]
+471 verbose cache add name=undefined spec="request-progress@0.3.0" args=["request-progress@0.3.0",null]
+472 verbose parsed url { protocol: null,
+472 verbose parsed url   slashes: null,
+472 verbose parsed url   auth: null,
+472 verbose parsed url   host: null,
+472 verbose parsed url   port: null,
+472 verbose parsed url   hostname: null,
+472 verbose parsed url   hash: null,
+472 verbose parsed url   search: null,
+472 verbose parsed url   query: null,
+472 verbose parsed url   pathname: 'request-progress@0.3.0',
+472 verbose parsed url   path: 'request-progress@0.3.0',
+472 verbose parsed url   href: 'request-progress@0.3.0' }
+473 verbose cache add [ 'retry@0.6.0', null ]
+474 verbose cache add name=undefined spec="retry@0.6.0" args=["retry@0.6.0",null]
+475 verbose parsed url { protocol: null,
+475 verbose parsed url   slashes: null,
+475 verbose parsed url   auth: null,
+475 verbose parsed url   host: null,
+475 verbose parsed url   port: null,
+475 verbose parsed url   hostname: null,
+475 verbose parsed url   hash: null,
+475 verbose parsed url   search: null,
+475 verbose parsed url   query: null,
+475 verbose parsed url   pathname: 'retry@0.6.0',
+475 verbose parsed url   path: 'retry@0.6.0',
+475 verbose parsed url   href: 'retry@0.6.0' }
+476 verbose cache add [ 'rimraf@~2.2.0', null ]
+477 verbose cache add name=undefined spec="rimraf@~2.2.0" args=["rimraf@~2.2.0",null]
+478 verbose parsed url { protocol: null,
+478 verbose parsed url   slashes: null,
+478 verbose parsed url   auth: null,
+478 verbose parsed url   host: null,
+478 verbose parsed url   port: null,
+478 verbose parsed url   hostname: null,
+478 verbose parsed url   hash: null,
+478 verbose parsed url   search: null,
+478 verbose parsed url   query: null,
+478 verbose parsed url   pathname: 'rimraf@~2.2.0',
+478 verbose parsed url   path: 'rimraf@~2.2.0',
+478 verbose parsed url   href: 'rimraf@~2.2.0' }
+479 verbose cache add [ 'semver@~2.3.0', null ]
+480 verbose cache add name=undefined spec="semver@~2.3.0" args=["semver@~2.3.0",null]
+481 verbose parsed url { protocol: null,
+481 verbose parsed url   slashes: null,
+481 verbose parsed url   auth: null,
+481 verbose parsed url   host: null,
+481 verbose parsed url   port: null,
+481 verbose parsed url   hostname: null,
+481 verbose parsed url   hash: null,
+481 verbose parsed url   search: null,
+481 verbose parsed url   query: null,
+481 verbose parsed url   pathname: 'semver@~2.3.0',
+481 verbose parsed url   path: 'semver@~2.3.0',
+481 verbose parsed url   href: 'semver@~2.3.0' }
+482 verbose registry.get bower-endpoint-parser not expired, no request
+483 silly addNameRange number 2 { name: 'bower-endpoint-parser',
+483 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+483 silly addNameRange   hasData: true }
+484 silly addNameRange versions [ 'bower-endpoint-parser',
+484 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+485 verbose addNamed [ 'bower-endpoint-parser', '0.2.2' ]
+486 verbose addNamed [ '0.2.2', '0.2.2' ]
+487 silly lockFile b3d72336-bower-endpoint-parser-0-2-2 bower-endpoint-parser@0.2.2
+488 verbose lock bower-endpoint-parser@0.2.2 /Users/harrychen/.npm/b3d72336-bower-endpoint-parser-0-2-2.lock
+489 verbose registry.get bower-json not expired, no request
+490 silly addNameRange number 2 { name: 'bower-json',
+490 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+490 silly addNameRange   hasData: true }
+491 silly addNameRange versions [ 'bower-json', [ '0.1.0-rc.1', '0.2.0', '0.3.0', '0.4.0' ] ]
+492 verbose addNamed [ 'bower-json', '0.4.0' ]
+493 verbose addNamed [ '0.4.0', '0.4.0' ]
+494 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+495 verbose lock bower-json@0.4.0 /Users/harrychen/.npm/d39b341c-bower-json-0-4-0.lock
+496 silly addNameRange { name: 'is-root', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+497 silly addNameRange { name: 'junk', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+498 verbose cache add name="p-throttler" spec="0.1.0" args=["p-throttler","0.1.0"]
+499 verbose parsed url { protocol: null,
+499 verbose parsed url   slashes: null,
+499 verbose parsed url   auth: null,
+499 verbose parsed url   host: null,
+499 verbose parsed url   port: null,
+499 verbose parsed url   hostname: null,
+499 verbose parsed url   hash: null,
+499 verbose parsed url   search: null,
+499 verbose parsed url   query: null,
+499 verbose parsed url   pathname: '0.1.0',
+499 verbose parsed url   path: '0.1.0',
+499 verbose parsed url   href: '0.1.0' }
+500 verbose addNamed [ 'p-throttler', '0.1.0' ]
+501 verbose addNamed [ '0.1.0', '0.1.0' ]
+502 silly lockFile aea1ccf7-p-throttler-0-1-0 p-throttler@0.1.0
+503 verbose lock p-throttler@0.1.0 /Users/harrychen/.npm/aea1ccf7-p-throttler-0-1-0.lock
+504 verbose cache add name="promptly" spec="0.2.0" args=["promptly","0.2.0"]
+505 verbose parsed url { protocol: null,
+505 verbose parsed url   slashes: null,
+505 verbose parsed url   auth: null,
+505 verbose parsed url   host: null,
+505 verbose parsed url   port: null,
+505 verbose parsed url   hostname: null,
+505 verbose parsed url   hash: null,
+505 verbose parsed url   search: null,
+505 verbose parsed url   query: null,
+505 verbose parsed url   pathname: '0.2.0',
+505 verbose parsed url   path: '0.2.0',
+505 verbose parsed url   href: '0.2.0' }
+506 verbose addNamed [ 'promptly', '0.2.0' ]
+507 verbose addNamed [ '0.2.0', '0.2.0' ]
+508 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
+509 verbose lock promptly@0.2.0 /Users/harrychen/.npm/c940dc36-promptly-0-2-0.lock
+510 verbose cache add name="q" spec="~1.0.1" args=["q","~1.0.1"]
+511 verbose parsed url { protocol: null,
+511 verbose parsed url   slashes: null,
+511 verbose parsed url   auth: null,
+511 verbose parsed url   host: null,
+511 verbose parsed url   port: null,
+511 verbose parsed url   hostname: null,
+511 verbose parsed url   hash: null,
+511 verbose parsed url   search: null,
+511 verbose parsed url   query: null,
+511 verbose parsed url   pathname: '~1.0.1',
+511 verbose parsed url   path: '~1.0.1',
+511 verbose parsed url   href: '~1.0.1' }
+512 verbose addNamed [ 'q', '~1.0.1' ]
+513 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+514 silly lockFile bfcfee2e-q-1-0-1 q@~1.0.1
+515 verbose lock q@~1.0.1 /Users/harrychen/.npm/bfcfee2e-q-1-0-1.lock
+516 verbose cache add name="request" spec="~2.42.0" args=["request","~2.42.0"]
+517 verbose parsed url { protocol: null,
+517 verbose parsed url   slashes: null,
+517 verbose parsed url   auth: null,
+517 verbose parsed url   host: null,
+517 verbose parsed url   port: null,
+517 verbose parsed url   hostname: null,
+517 verbose parsed url   hash: null,
+517 verbose parsed url   search: null,
+517 verbose parsed url   query: null,
+517 verbose parsed url   pathname: '~2.42.0',
+517 verbose parsed url   path: '~2.42.0',
+517 verbose parsed url   href: '~2.42.0' }
+518 verbose addNamed [ 'request', '~2.42.0' ]
+519 verbose addNamed [ null, '>=2.42.0-0 <2.43.0-0' ]
+520 silly lockFile 8adb197d-request-2-42-0 request@~2.42.0
+521 verbose lock request@~2.42.0 /Users/harrychen/.npm/8adb197d-request-2-42-0.lock
+522 verbose cache add name="request-progress" spec="0.3.0" args=["request-progress","0.3.0"]
+523 verbose parsed url { protocol: null,
+523 verbose parsed url   slashes: null,
+523 verbose parsed url   auth: null,
+523 verbose parsed url   host: null,
+523 verbose parsed url   port: null,
+523 verbose parsed url   hostname: null,
+523 verbose parsed url   hash: null,
+523 verbose parsed url   search: null,
+523 verbose parsed url   query: null,
+523 verbose parsed url   pathname: '0.3.0',
+523 verbose parsed url   path: '0.3.0',
+523 verbose parsed url   href: '0.3.0' }
+524 verbose addNamed [ 'request-progress', '0.3.0' ]
+525 verbose addNamed [ '0.3.0', '0.3.0' ]
+526 silly lockFile caf2758e-request-progress-0-3-0 request-progress@0.3.0
+527 verbose lock request-progress@0.3.0 /Users/harrychen/.npm/caf2758e-request-progress-0-3-0.lock
+528 verbose cache add name="retry" spec="0.6.0" args=["retry","0.6.0"]
+529 verbose parsed url { protocol: null,
+529 verbose parsed url   slashes: null,
+529 verbose parsed url   auth: null,
+529 verbose parsed url   host: null,
+529 verbose parsed url   port: null,
+529 verbose parsed url   hostname: null,
+529 verbose parsed url   hash: null,
+529 verbose parsed url   search: null,
+529 verbose parsed url   query: null,
+529 verbose parsed url   pathname: '0.6.0',
+529 verbose parsed url   path: '0.6.0',
+529 verbose parsed url   href: '0.6.0' }
+530 verbose addNamed [ 'retry', '0.6.0' ]
+531 verbose addNamed [ '0.6.0', '0.6.0' ]
+532 silly lockFile 874cb068-retry-0-6-0 retry@0.6.0
+533 verbose lock retry@0.6.0 /Users/harrychen/.npm/874cb068-retry-0-6-0.lock
+534 verbose cache add name="rimraf" spec="~2.2.0" args=["rimraf","~2.2.0"]
+535 verbose parsed url { protocol: null,
+535 verbose parsed url   slashes: null,
+535 verbose parsed url   auth: null,
+535 verbose parsed url   host: null,
+535 verbose parsed url   port: null,
+535 verbose parsed url   hostname: null,
+535 verbose parsed url   hash: null,
+535 verbose parsed url   search: null,
+535 verbose parsed url   query: null,
+535 verbose parsed url   pathname: '~2.2.0',
+535 verbose parsed url   path: '~2.2.0',
+535 verbose parsed url   href: '~2.2.0' }
+536 verbose addNamed [ 'rimraf', '~2.2.0' ]
+537 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+538 silly lockFile 69dbd68f-rimraf-2-2-0 rimraf@~2.2.0
+539 verbose lock rimraf@~2.2.0 /Users/harrychen/.npm/69dbd68f-rimraf-2-2-0.lock
+540 verbose cache add name="semver" spec="~2.3.0" args=["semver","~2.3.0"]
+541 verbose parsed url { protocol: null,
+541 verbose parsed url   slashes: null,
+541 verbose parsed url   auth: null,
+541 verbose parsed url   host: null,
+541 verbose parsed url   port: null,
+541 verbose parsed url   hostname: null,
+541 verbose parsed url   hash: null,
+541 verbose parsed url   search: null,
+541 verbose parsed url   query: null,
+541 verbose parsed url   pathname: '~2.3.0',
+541 verbose parsed url   path: '~2.3.0',
+541 verbose parsed url   href: '~2.3.0' }
+542 verbose addNamed [ 'semver', '~2.3.0' ]
+543 verbose addNamed [ null, '>=2.3.0-0 <2.4.0-0' ]
+544 silly lockFile 1576312f-semver-2-3-0 semver@~2.3.0
+545 verbose lock semver@~2.3.0 /Users/harrychen/.npm/1576312f-semver-2-3-0.lock
+546 verbose cache add [ 'shell-quote@~1.4.1', null ]
+547 verbose cache add name=undefined spec="shell-quote@~1.4.1" args=["shell-quote@~1.4.1",null]
+548 verbose parsed url { protocol: null,
+548 verbose parsed url   slashes: null,
+548 verbose parsed url   auth: null,
+548 verbose parsed url   host: null,
+548 verbose parsed url   port: null,
+548 verbose parsed url   hostname: null,
+548 verbose parsed url   hash: null,
+548 verbose parsed url   search: null,
+548 verbose parsed url   query: null,
+548 verbose parsed url   pathname: 'shell-quote@~1.4.1',
+548 verbose parsed url   path: 'shell-quote@~1.4.1',
+548 verbose parsed url   href: 'shell-quote@~1.4.1' }
+549 verbose cache add [ 'stringify-object@~1.0.0', null ]
+550 verbose cache add name=undefined spec="stringify-object@~1.0.0" args=["stringify-object@~1.0.0",null]
+551 verbose parsed url { protocol: null,
+551 verbose parsed url   slashes: null,
+551 verbose parsed url   auth: null,
+551 verbose parsed url   host: null,
+551 verbose parsed url   port: null,
+551 verbose parsed url   hostname: null,
+551 verbose parsed url   hash: null,
+551 verbose parsed url   search: null,
+551 verbose parsed url   query: null,
+551 verbose parsed url   pathname: 'stringify-object@~1.0.0',
+551 verbose parsed url   path: 'stringify-object@~1.0.0',
+551 verbose parsed url   href: 'stringify-object@~1.0.0' }
+552 verbose cache add [ 'tar-fs@0.5.2', null ]
+553 verbose cache add name=undefined spec="tar-fs@0.5.2" args=["tar-fs@0.5.2",null]
+554 verbose parsed url { protocol: null,
+554 verbose parsed url   slashes: null,
+554 verbose parsed url   auth: null,
+554 verbose parsed url   host: null,
+554 verbose parsed url   port: null,
+554 verbose parsed url   hostname: null,
+554 verbose parsed url   hash: null,
+554 verbose parsed url   search: null,
+554 verbose parsed url   query: null,
+554 verbose parsed url   pathname: 'tar-fs@0.5.2',
+554 verbose parsed url   path: 'tar-fs@0.5.2',
+554 verbose parsed url   href: 'tar-fs@0.5.2' }
+555 verbose cache add [ 'tmp@0.0.23', null ]
+556 verbose cache add name=undefined spec="tmp@0.0.23" args=["tmp@0.0.23",null]
+557 verbose parsed url { protocol: null,
+557 verbose parsed url   slashes: null,
+557 verbose parsed url   auth: null,
+557 verbose parsed url   host: null,
+557 verbose parsed url   port: null,
+557 verbose parsed url   hostname: null,
+557 verbose parsed url   hash: null,
+557 verbose parsed url   search: null,
+557 verbose parsed url   query: null,
+557 verbose parsed url   pathname: 'tmp@0.0.23',
+557 verbose parsed url   path: 'tmp@0.0.23',
+557 verbose parsed url   href: 'tmp@0.0.23' }
+558 verbose cache add [ 'update-notifier@0.2.0', null ]
+559 verbose cache add name=undefined spec="update-notifier@0.2.0" args=["update-notifier@0.2.0",null]
+560 verbose parsed url { protocol: null,
+560 verbose parsed url   slashes: null,
+560 verbose parsed url   auth: null,
+560 verbose parsed url   host: null,
+560 verbose parsed url   port: null,
+560 verbose parsed url   hostname: null,
+560 verbose parsed url   hash: null,
+560 verbose parsed url   search: null,
+560 verbose parsed url   query: null,
+560 verbose parsed url   pathname: 'update-notifier@0.2.0',
+560 verbose parsed url   path: 'update-notifier@0.2.0',
+560 verbose parsed url   href: 'update-notifier@0.2.0' }
+561 verbose cache add [ 'which@~1.0.5', null ]
+562 verbose cache add name=undefined spec="which@~1.0.5" args=["which@~1.0.5",null]
+563 verbose parsed url { protocol: null,
+563 verbose parsed url   slashes: null,
+563 verbose parsed url   auth: null,
+563 verbose parsed url   host: null,
+563 verbose parsed url   port: null,
+563 verbose parsed url   hostname: null,
+563 verbose parsed url   hash: null,
+563 verbose parsed url   search: null,
+563 verbose parsed url   query: null,
+563 verbose parsed url   pathname: 'which@~1.0.5',
+563 verbose parsed url   path: 'which@~1.0.5',
+563 verbose parsed url   href: 'which@~1.0.5' }
+564 verbose registry.get bower-logger not expired, no request
+565 silly addNameRange number 2 { name: 'bower-logger',
+565 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+565 silly addNameRange   hasData: true }
+566 silly addNameRange versions [ 'bower-logger',
+566 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+567 verbose addNamed [ 'bower-logger', '0.2.2' ]
+568 verbose addNamed [ '0.2.2', '0.2.2' ]
+569 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+570 verbose lock bower-logger@0.2.2 /Users/harrychen/.npm/4a38f198-bower-logger-0-2-2.lock
+571 verbose registry.get bower-registry-client not expired, no request
+572 silly addNameRange number 2 { name: 'bower-registry-client',
+572 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+572 silly addNameRange   hasData: true }
+573 silly addNameRange versions [ 'bower-registry-client',
+573 silly addNameRange   [ '0.1.0-rc.1',
+573 silly addNameRange     '0.1.0-rc.2',
+573 silly addNameRange     '0.1.0-rc.3',
+573 silly addNameRange     '0.1.0-rc.4',
+573 silly addNameRange     '0.1.0-rc.5',
+573 silly addNameRange     '0.1.0',
+573 silly addNameRange     '0.1.1',
+573 silly addNameRange     '0.1.2',
+573 silly addNameRange     '0.1.3',
+573 silly addNameRange     '0.1.4',
+573 silly addNameRange     '0.1.5',
+573 silly addNameRange     '0.1.6',
+573 silly addNameRange     '0.2.0',
+573 silly addNameRange     '0.2.1',
+573 silly addNameRange     '0.2.2',
+573 silly addNameRange     '0.2.3' ] ]
+574 verbose addNamed [ 'bower-registry-client', '0.2.3' ]
+575 verbose addNamed [ '0.2.3', '0.2.3' ]
+576 silly lockFile e6aeabba-bower-registry-client-0-2-3 bower-registry-client@0.2.3
+577 verbose lock bower-registry-client@0.2.3 /Users/harrychen/.npm/e6aeabba-bower-registry-client-0-2-3.lock
+578 silly addNameRange { name: 'lockfile', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+579 silly addNameRange { name: 'lru-cache',
+579 silly addNameRange   range: '>=2.5.0-0 <2.6.0-0',
+579 silly addNameRange   hasData: false }
+580 silly addNameRange { name: 'mout', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+581 silly addNameRange { name: 'nopt', range: '>=3.0.0-0 <3.1.0-0', hasData: false }
+582 silly addNameRange { name: 'opn', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+583 verbose cache add name="shell-quote" spec="~1.4.1" args=["shell-quote","~1.4.1"]
+584 verbose parsed url { protocol: null,
+584 verbose parsed url   slashes: null,
+584 verbose parsed url   auth: null,
+584 verbose parsed url   host: null,
+584 verbose parsed url   port: null,
+584 verbose parsed url   hostname: null,
+584 verbose parsed url   hash: null,
+584 verbose parsed url   search: null,
+584 verbose parsed url   query: null,
+584 verbose parsed url   pathname: '~1.4.1',
+584 verbose parsed url   path: '~1.4.1',
+584 verbose parsed url   href: '~1.4.1' }
+585 verbose addNamed [ 'shell-quote', '~1.4.1' ]
+586 verbose addNamed [ null, '>=1.4.1-0 <1.5.0-0' ]
+587 silly lockFile cfbfb4a3-shell-quote-1-4-1 shell-quote@~1.4.1
+588 verbose lock shell-quote@~1.4.1 /Users/harrychen/.npm/cfbfb4a3-shell-quote-1-4-1.lock
+589 verbose cache add name="stringify-object" spec="~1.0.0" args=["stringify-object","~1.0.0"]
+590 verbose parsed url { protocol: null,
+590 verbose parsed url   slashes: null,
+590 verbose parsed url   auth: null,
+590 verbose parsed url   host: null,
+590 verbose parsed url   port: null,
+590 verbose parsed url   hostname: null,
+590 verbose parsed url   hash: null,
+590 verbose parsed url   search: null,
+590 verbose parsed url   query: null,
+590 verbose parsed url   pathname: '~1.0.0',
+590 verbose parsed url   path: '~1.0.0',
+590 verbose parsed url   href: '~1.0.0' }
+591 verbose addNamed [ 'stringify-object', '~1.0.0' ]
+592 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+593 silly lockFile 9f0958e2-stringify-object-1-0-0 stringify-object@~1.0.0
+594 verbose lock stringify-object@~1.0.0 /Users/harrychen/.npm/9f0958e2-stringify-object-1-0-0.lock
+595 verbose cache add name="tar-fs" spec="0.5.2" args=["tar-fs","0.5.2"]
+596 verbose parsed url { protocol: null,
+596 verbose parsed url   slashes: null,
+596 verbose parsed url   auth: null,
+596 verbose parsed url   host: null,
+596 verbose parsed url   port: null,
+596 verbose parsed url   hostname: null,
+596 verbose parsed url   hash: null,
+596 verbose parsed url   search: null,
+596 verbose parsed url   query: null,
+596 verbose parsed url   pathname: '0.5.2',
+596 verbose parsed url   path: '0.5.2',
+596 verbose parsed url   href: '0.5.2' }
+597 verbose addNamed [ 'tar-fs', '0.5.2' ]
+598 verbose addNamed [ '0.5.2', '0.5.2' ]
+599 silly lockFile 197bacf4-tar-fs-0-5-2 tar-fs@0.5.2
+600 verbose lock tar-fs@0.5.2 /Users/harrychen/.npm/197bacf4-tar-fs-0-5-2.lock
+601 verbose cache add name="tmp" spec="0.0.23" args=["tmp","0.0.23"]
+602 verbose parsed url { protocol: null,
+602 verbose parsed url   slashes: null,
+602 verbose parsed url   auth: null,
+602 verbose parsed url   host: null,
+602 verbose parsed url   port: null,
+602 verbose parsed url   hostname: null,
+602 verbose parsed url   hash: null,
+602 verbose parsed url   search: null,
+602 verbose parsed url   query: null,
+602 verbose parsed url   pathname: '0.0.23',
+602 verbose parsed url   path: '0.0.23',
+602 verbose parsed url   href: '0.0.23' }
+603 verbose addNamed [ 'tmp', '0.0.23' ]
+604 verbose addNamed [ '0.0.23', '0.0.23' ]
+605 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+606 verbose lock tmp@0.0.23 /Users/harrychen/.npm/f7638ceb-tmp-0-0-23.lock
+607 verbose cache add name="update-notifier" spec="0.2.0" args=["update-notifier","0.2.0"]
+608 verbose parsed url { protocol: null,
+608 verbose parsed url   slashes: null,
+608 verbose parsed url   auth: null,
+608 verbose parsed url   host: null,
+608 verbose parsed url   port: null,
+608 verbose parsed url   hostname: null,
+608 verbose parsed url   hash: null,
+608 verbose parsed url   search: null,
+608 verbose parsed url   query: null,
+608 verbose parsed url   pathname: '0.2.0',
+608 verbose parsed url   path: '0.2.0',
+608 verbose parsed url   href: '0.2.0' }
+609 verbose addNamed [ 'update-notifier', '0.2.0' ]
+610 verbose addNamed [ '0.2.0', '0.2.0' ]
+611 silly lockFile 8e5d91fe-update-notifier-0-2-0 update-notifier@0.2.0
+612 verbose lock update-notifier@0.2.0 /Users/harrychen/.npm/8e5d91fe-update-notifier-0-2-0.lock
+613 verbose cache add name="which" spec="~1.0.5" args=["which","~1.0.5"]
+614 verbose parsed url { protocol: null,
+614 verbose parsed url   slashes: null,
+614 verbose parsed url   auth: null,
+614 verbose parsed url   host: null,
+614 verbose parsed url   port: null,
+614 verbose parsed url   hostname: null,
+614 verbose parsed url   hash: null,
+614 verbose parsed url   search: null,
+614 verbose parsed url   query: null,
+614 verbose parsed url   pathname: '~1.0.5',
+614 verbose parsed url   path: '~1.0.5',
+614 verbose parsed url   href: '~1.0.5' }
+615 verbose addNamed [ 'which', '~1.0.5' ]
+616 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+617 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+618 verbose lock which@~1.0.5 /Users/harrychen/.npm/d158d65e-which-1-0-5.lock
+619 verbose registry.get cardinal not expired, no request
+620 verbose registry.get chalk not expired, no request
+621 silly addNameRange { name: 'q', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+622 silly addNameRange { name: 'request',
+622 silly addNameRange   range: '>=2.42.0-0 <2.43.0-0',
+622 silly addNameRange   hasData: false }
+623 silly addNameRange { name: 'rimraf', range: '>=2.2.0-0 <2.3.0-0', hasData: false }
+624 silly addNameRange { name: 'semver', range: '>=2.3.0-0 <2.4.0-0', hasData: false }
+625 verbose registry.get chmodr not expired, no request
+626 verbose registry.get decompress-zip not expired, no request
+627 verbose registry.get fstream not expired, no request
+628 silly addNameRange number 2 { name: 'fstream', range: '>=1.0.2-0 <1.1.0-0', hasData: true }
+629 silly addNameRange versions [ 'fstream',
+629 silly addNameRange   [ '0.0.0',
+629 silly addNameRange     '0.0.1',
+629 silly addNameRange     '0.1.0',
+629 silly addNameRange     '0.1.1',
+629 silly addNameRange     '0.1.2',
+629 silly addNameRange     '0.1.3',
+629 silly addNameRange     '0.1.5',
+629 silly addNameRange     '0.1.6',
+629 silly addNameRange     '0.1.7',
+629 silly addNameRange     '0.1.8',
+629 silly addNameRange     '0.1.9',
+629 silly addNameRange     '0.1.10',
+629 silly addNameRange     '0.1.11',
+629 silly addNameRange     '0.1.12',
+629 silly addNameRange     '0.1.13',
+629 silly addNameRange     '0.1.14',
+629 silly addNameRange     '0.1.15',
+629 silly addNameRange     '0.1.16',
+629 silly addNameRange     '0.1.17',
+629 silly addNameRange     '0.1.18',
+629 silly addNameRange     '0.1.19',
+629 silly addNameRange     '0.1.20',
+629 silly addNameRange     '0.1.21',
+629 silly addNameRange     '0.1.22',
+629 silly addNameRange     '0.1.23',
+629 silly addNameRange     '0.1.24',
+629 silly addNameRange     '0.1.25',
+629 silly addNameRange     '0.1.26',
+629 silly addNameRange     '0.1.27',
+629 silly addNameRange     '0.1.28',
+629 silly addNameRange     '0.1.29',
+629 silly addNameRange     '0.1.30',
+629 silly addNameRange     '1.0.0',
+629 silly addNameRange     '1.0.1',
+629 silly addNameRange     '0.1.31',
+629 silly addNameRange     '1.0.2',
+629 silly addNameRange     '1.0.3',
+629 silly addNameRange     '1.0.4' ] ]
+630 verbose addNamed [ 'fstream', '1.0.4' ]
+631 verbose addNamed [ '1.0.4', '1.0.4' ]
+632 silly lockFile ede035e6-fstream-1-0-4 fstream@1.0.4
+633 verbose lock fstream@1.0.4 /Users/harrychen/.npm/ede035e6-fstream-1-0-4.lock
+634 verbose registry.get fstream-ignore not expired, no request
+635 silly addNameRange number 2 { name: 'fstream-ignore',
+635 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+635 silly addNameRange   hasData: true }
+636 silly addNameRange versions [ 'fstream-ignore',
+636 silly addNameRange   [ '0.0.1',
+636 silly addNameRange     '0.0.2',
+636 silly addNameRange     '0.0.3',
+636 silly addNameRange     '0.0.4',
+636 silly addNameRange     '0.0.5',
+636 silly addNameRange     '0.0.6',
+636 silly addNameRange     '0.0.7',
+636 silly addNameRange     '0.0.8',
+636 silly addNameRange     '0.0.9',
+636 silly addNameRange     '0.0.10',
+636 silly addNameRange     '1.0.0',
+636 silly addNameRange     '1.0.1',
+636 silly addNameRange     '1.0.2' ] ]
+637 verbose addNamed [ 'fstream-ignore', '1.0.2' ]
+638 verbose addNamed [ '1.0.2', '1.0.2' ]
+639 silly lockFile 58191f1e-fstream-ignore-1-0-2 fstream-ignore@1.0.2
+640 verbose lock fstream-ignore@1.0.2 /Users/harrychen/.npm/58191f1e-fstream-ignore-1-0-2.lock
+641 silly addNameRange { name: 'shell-quote',
+641 silly addNameRange   range: '>=1.4.1-0 <1.5.0-0',
+641 silly addNameRange   hasData: false }
+642 silly addNameRange { name: 'stringify-object',
+642 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+642 silly addNameRange   hasData: false }
+643 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+644 verbose registry.get glob not expired, no request
+645 silly addNameRange number 2 { name: 'glob', range: '>=4.0.2-0 <4.1.0-0', hasData: true }
+646 silly addNameRange versions [ 'glob',
+646 silly addNameRange   [ '1.1.0',
+646 silly addNameRange     '2.0.9',
+646 silly addNameRange     '2.0.8',
+646 silly addNameRange     '2.0.7',
+646 silly addNameRange     '2.1.0',
+646 silly addNameRange     '3.0.0',
+646 silly addNameRange     '3.0.1',
+646 silly addNameRange     '3.1.0',
+646 silly addNameRange     '3.1.1',
+646 silly addNameRange     '3.1.2',
+646 silly addNameRange     '3.1.3',
+646 silly addNameRange     '3.1.4',
+646 silly addNameRange     '3.1.5',
+646 silly addNameRange     '3.1.6',
+646 silly addNameRange     '3.1.7',
+646 silly addNameRange     '3.1.9',
+646 silly addNameRange     '3.1.10',
+646 silly addNameRange     '3.1.11',
+646 silly addNameRange     '3.1.12',
+646 silly addNameRange     '3.1.13',
+646 silly addNameRange     '3.1.14',
+646 silly addNameRange     '3.1.15',
+646 silly addNameRange     '3.1.16',
+646 silly addNameRange     '3.1.17',
+646 silly addNameRange     '3.1.18',
+646 silly addNameRange     '3.1.19',
+646 silly addNameRange     '3.1.20',
+646 silly addNameRange     '3.1.21',
+646 silly addNameRange     '3.2.0',
+646 silly addNameRange     '3.2.1',
+646 silly addNameRange     '3.2.3',
+646 silly addNameRange     '3.2.4',
+646 silly addNameRange     '3.2.5',
+646 silly addNameRange     '3.2.6',
+646 silly addNameRange     '3.2.7',
+646 silly addNameRange     '3.2.8',
+646 silly addNameRange     '3.2.9',
+646 silly addNameRange     '3.2.10',
+646 silly addNameRange     '3.2.11',
+646 silly addNameRange     '4.0.0',
+646 silly addNameRange     '4.0.1',
+646 silly addNameRange     '4.0.2',
+646 silly addNameRange     '4.0.3',
+646 silly addNameRange     '4.0.4',
+646 silly addNameRange     '4.0.5',
+646 silly addNameRange     '4.0.6',
+646 silly addNameRange     '4.1.2-beta',
+646 silly addNameRange     '4.1.2',
+646 silly addNameRange     '4.1.3',
+646 silly addNameRange     '4.1.4',
+646 silly addNameRange     '4.1.5',
+646 silly addNameRange     '4.1.6',
+646 silly addNameRange     '4.2.0',
+646 silly addNameRange     '4.2.1',
+646 silly addNameRange     '4.2.2',
+646 silly addNameRange     '4.3.0',
+646 silly addNameRange     '4.3.1',
+646 silly addNameRange     '4.3.2',
+646 silly addNameRange     '4.3.3',
+646 silly addNameRange     '4.3.4',
+646 silly addNameRange     '4.3.5' ] ]
+647 verbose addNamed [ 'glob', '4.0.6' ]
+648 verbose addNamed [ '4.0.6', '4.0.6' ]
+649 silly lockFile 82561750-glob-4-0-6 glob@4.0.6
+650 verbose lock glob@4.0.6 /Users/harrychen/.npm/82561750-glob-4-0-6.lock
+651 verbose registry.get graceful-fs not expired, no request
+652 silly addNameRange number 2 { name: 'graceful-fs',
+652 silly addNameRange   range: '>=3.0.1-0 <3.1.0-0',
+652 silly addNameRange   hasData: true }
+653 silly addNameRange versions [ 'graceful-fs',
+653 silly addNameRange   [ '1.0.0',
+653 silly addNameRange     '1.0.1',
+653 silly addNameRange     '1.0.2',
+653 silly addNameRange     '1.1.0',
+653 silly addNameRange     '1.1.1',
+653 silly addNameRange     '1.1.2',
+653 silly addNameRange     '1.1.3',
+653 silly addNameRange     '1.1.4',
+653 silly addNameRange     '1.1.5',
+653 silly addNameRange     '1.1.6',
+653 silly addNameRange     '1.1.7',
+653 silly addNameRange     '1.1.8',
+653 silly addNameRange     '1.1.9',
+653 silly addNameRange     '1.1.10',
+653 silly addNameRange     '1.1.11',
+653 silly addNameRange     '1.1.12',
+653 silly addNameRange     '1.1.13',
+653 silly addNameRange     '1.1.14',
+653 silly addNameRange     '1.2.0',
+653 silly addNameRange     '1.2.1',
+653 silly addNameRange     '1.2.2',
+653 silly addNameRange     '1.2.3',
+653 silly addNameRange     '2.0.0',
+653 silly addNameRange     '2.0.1',
+653 silly addNameRange     '2.0.2',
+653 silly addNameRange     '2.0.3',
+653 silly addNameRange     '3.0.0',
+653 silly addNameRange     '3.0.1',
+653 silly addNameRange     '3.0.2',
+653 silly addNameRange     '3.0.3',
+653 silly addNameRange     '3.0.4',
+653 silly addNameRange     '3.0.5' ] ]
+654 verbose addNamed [ 'graceful-fs', '3.0.5' ]
+655 verbose addNamed [ '3.0.5', '3.0.5' ]
+656 silly lockFile cf3f6b1e-graceful-fs-3-0-5 graceful-fs@3.0.5
+657 verbose lock graceful-fs@3.0.5 /Users/harrychen/.npm/cf3f6b1e-graceful-fs-3-0-5.lock
+658 verbose registry.get handlebars not expired, no request
+659 silly addNameRange number 2 { name: 'handlebars',
+659 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+659 silly addNameRange   hasData: true }
+660 silly addNameRange versions [ 'handlebars',
+660 silly addNameRange   [ '1.0.6',
+660 silly addNameRange     '1.0.6-2',
+660 silly addNameRange     '1.0.7',
+660 silly addNameRange     '1.0.8',
+660 silly addNameRange     '1.0.9',
+660 silly addNameRange     '1.0.10',
+660 silly addNameRange     '1.0.11',
+660 silly addNameRange     '1.0.12',
+660 silly addNameRange     '1.1.0',
+660 silly addNameRange     '1.1.1',
+660 silly addNameRange     '1.1.2',
+660 silly addNameRange     '1.2.0',
+660 silly addNameRange     '1.2.1',
+660 silly addNameRange     '1.3.0',
+660 silly addNameRange     '2.0.0-alpha.1',
+660 silly addNameRange     '2.0.0-alpha.2',
+660 silly addNameRange     '2.0.0-alpha.3',
+660 silly addNameRange     '2.0.0-alpha.4',
+660 silly addNameRange     '2.0.0-beta.1',
+660 silly addNameRange     '2.0.0',
+660 silly addNameRange     '1.0.2-beta',
+660 silly addNameRange     '1.0.4-beta',
+660 silly addNameRange     '1.0.5-beta' ] ]
+661 verbose addNamed [ 'handlebars', '2.0.0' ]
+662 verbose addNamed [ '2.0.0', '2.0.0' ]
+663 silly lockFile a1e153af-handlebars-2-0-0 handlebars@2.0.0
+664 verbose lock handlebars@2.0.0 /Users/harrychen/.npm/a1e153af-handlebars-2-0-0.lock
+665 verbose registry.get inquirer not expired, no request
+666 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+667 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+668 verbose registry.get insight not expired, no request
+669 verbose registry.get is-root not expired, no request
+670 silly addNameRange number 2 { name: 'is-root', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+671 silly addNameRange versions [ 'is-root', [ '0.1.0', '1.0.0' ] ]
+672 verbose addNamed [ 'is-root', '1.0.0' ]
+673 verbose addNamed [ '1.0.0', '1.0.0' ]
+674 silly lockFile 569ba987-is-root-1-0-0 is-root@1.0.0
+675 verbose lock is-root@1.0.0 /Users/harrychen/.npm/569ba987-is-root-1-0-0.lock
+676 verbose registry.get junk not expired, no request
+677 silly addNameRange number 2 { name: 'junk', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+678 silly addNameRange versions [ 'junk',
+678 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '0.3.0', '1.0.0' ] ]
+679 verbose addNamed [ 'junk', '1.0.0' ]
+680 verbose addNamed [ '1.0.0', '1.0.0' ]
+681 silly lockFile a9135e61-junk-1-0-0 junk@1.0.0
+682 verbose lock junk@1.0.0 /Users/harrychen/.npm/a9135e61-junk-1-0-0.lock
+683 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+684 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+685 verbose registry.get lockfile not expired, no request
+686 silly addNameRange number 2 { name: 'lockfile', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+687 silly addNameRange versions [ 'lockfile',
+687 silly addNameRange   [ '0.1.0',
+687 silly addNameRange     '0.1.1',
+687 silly addNameRange     '0.2.0',
+687 silly addNameRange     '0.2.1',
+687 silly addNameRange     '0.2.2',
+687 silly addNameRange     '0.3.0',
+687 silly addNameRange     '0.3.1',
+687 silly addNameRange     '0.3.2',
+687 silly addNameRange     '0.3.3',
+687 silly addNameRange     '0.3.4',
+687 silly addNameRange     '0.4.0',
+687 silly addNameRange     '0.4.1',
+687 silly addNameRange     '0.4.2',
+687 silly addNameRange     '0.4.3',
+687 silly addNameRange     '1.0.0' ] ]
+688 verbose addNamed [ 'lockfile', '1.0.0' ]
+689 verbose addNamed [ '1.0.0', '1.0.0' ]
+690 silly lockFile e19f7586-lockfile-1-0-0 lockfile@1.0.0
+691 verbose lock lockfile@1.0.0 /Users/harrychen/.npm/e19f7586-lockfile-1-0-0.lock
+692 verbose registry.get mkdirp not expired, no request
+693 verbose registry.get mout not expired, no request
+694 silly addNameRange number 2 { name: 'mout', range: '>=0.9.0-0 <0.10.0-0', hasData: true }
+695 silly addNameRange versions [ 'mout',
+695 silly addNameRange   [ '0.1.0',
+695 silly addNameRange     '0.2.0',
+695 silly addNameRange     '0.3.0',
+695 silly addNameRange     '0.4.0',
+695 silly addNameRange     '0.5.0',
+695 silly addNameRange     '0.6.0',
+695 silly addNameRange     '0.7.0',
+695 silly addNameRange     '0.7.1',
+695 silly addNameRange     '0.8.0',
+695 silly addNameRange     '0.9.0',
+695 silly addNameRange     '0.9.1',
+695 silly addNameRange     '0.10.0',
+695 silly addNameRange     '0.11.0' ] ]
+696 verbose addNamed [ 'mout', '0.9.1' ]
+697 verbose addNamed [ '0.9.1', '0.9.1' ]
+698 silly lockFile 87454de7-mout-0-9-1 mout@0.9.1
+699 verbose lock mout@0.9.1 /Users/harrychen/.npm/87454de7-mout-0-9-1.lock
+700 verbose registry.get nopt not expired, no request
+701 silly addNameRange number 2 { name: 'nopt', range: '>=3.0.0-0 <3.1.0-0', hasData: true }
+702 silly addNameRange versions [ 'nopt',
+702 silly addNameRange   [ '1.0.0',
+702 silly addNameRange     '1.0.1',
+702 silly addNameRange     '1.0.2',
+702 silly addNameRange     '1.0.3',
+702 silly addNameRange     '1.0.4',
+702 silly addNameRange     '1.0.5',
+702 silly addNameRange     '1.0.6',
+702 silly addNameRange     '1.0.7',
+702 silly addNameRange     '1.0.8',
+702 silly addNameRange     '1.0.9',
+702 silly addNameRange     '1.0.10',
+702 silly addNameRange     '2.0.0',
+702 silly addNameRange     '2.1.0',
+702 silly addNameRange     '2.1.1',
+702 silly addNameRange     '2.1.2',
+702 silly addNameRange     '2.2.0',
+702 silly addNameRange     '2.2.1',
+702 silly addNameRange     '3.0.0',
+702 silly addNameRange     '3.0.1' ] ]
+703 verbose addNamed [ 'nopt', '3.0.1' ]
+704 verbose addNamed [ '3.0.1', '3.0.1' ]
+705 silly lockFile a15bc1c5-nopt-3-0-1 nopt@3.0.1
+706 verbose lock nopt@3.0.1 /Users/harrychen/.npm/a15bc1c5-nopt-3-0-1.lock
+707 verbose registry.get opn not expired, no request
+708 silly addNameRange number 2 { name: 'opn', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+709 silly addNameRange versions [ 'opn', [ '0.1.0', '0.1.1', '0.1.2', '1.0.0', '1.0.1' ] ]
+710 verbose addNamed [ 'opn', '1.0.1' ]
+711 verbose addNamed [ '1.0.1', '1.0.1' ]
+712 silly lockFile 92e27783-opn-1-0-1 opn@1.0.1
+713 verbose lock opn@1.0.1 /Users/harrychen/.npm/92e27783-opn-1-0-1.lock
+714 verbose registry.get osenv not expired, no request
+715 silly lockFile b3d72336-bower-endpoint-parser-0-2-2 bower-endpoint-parser@0.2.2
+716 silly lockFile b3d72336-bower-endpoint-parser-0-2-2 bower-endpoint-parser@0.2.2
+717 verbose registry.get lru-cache not expired, no request
+718 silly addNameRange number 2 { name: 'lru-cache', range: '>=2.5.0-0 <2.6.0-0', hasData: true }
+719 silly addNameRange versions [ 'lru-cache',
+719 silly addNameRange   [ '1.0.1',
+719 silly addNameRange     '1.0.2',
+719 silly addNameRange     '1.0.3',
+719 silly addNameRange     '1.0.4',
+719 silly addNameRange     '1.0.5',
+719 silly addNameRange     '1.0.6',
+719 silly addNameRange     '1.1.0',
+719 silly addNameRange     '1.1.1',
+719 silly addNameRange     '2.0.0',
+719 silly addNameRange     '2.0.1',
+719 silly addNameRange     '2.0.2',
+719 silly addNameRange     '2.0.3',
+719 silly addNameRange     '2.0.4',
+719 silly addNameRange     '2.1.0',
+719 silly addNameRange     '2.2.0',
+719 silly addNameRange     '2.2.1',
+719 silly addNameRange     '2.2.2',
+719 silly addNameRange     '2.2.4',
+719 silly addNameRange     '2.3.0',
+719 silly addNameRange     '2.3.1',
+719 silly addNameRange     '2.5.0' ] ]
+720 verbose addNamed [ 'lru-cache', '2.5.0' ]
+721 verbose addNamed [ '2.5.0', '2.5.0' ]
+722 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+723 verbose lock lru-cache@2.5.0 /Users/harrychen/.npm/30aa630e-lru-cache-2-5-0.lock
+724 silly lockFile b1055cc0-chalk-0-5-0 chalk@0.5.0
+725 silly lockFile b1055cc0-chalk-0-5-0 chalk@0.5.0
+726 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
+727 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
+728 silly lockFile c7a59e04-bower-config-0-5-2 bower-config@0.5.2
+729 silly lockFile c7a59e04-bower-config-0-5-2 bower-config@0.5.2
+730 verbose registry.get p-throttler not expired, no request
+731 verbose registry.get promptly not expired, no request
+732 verbose registry.get q not expired, no request
+733 silly addNameRange number 2 { name: 'q', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
+734 silly addNameRange versions [ 'q',
+734 silly addNameRange   [ '0.0.0',
+734 silly addNameRange     '0.0.1',
+734 silly addNameRange     '0.0.2',
+734 silly addNameRange     '0.0.3',
+734 silly addNameRange     '0.1.0',
+734 silly addNameRange     '0.1.1',
+734 silly addNameRange     '0.1.2',
+734 silly addNameRange     '0.1.3',
+734 silly addNameRange     '0.1.4',
+734 silly addNameRange     '0.1.5',
+734 silly addNameRange     '0.1.6',
+734 silly addNameRange     '0.1.7',
+734 silly addNameRange     '0.1.8',
+734 silly addNameRange     '0.1.9',
+734 silly addNameRange     '0.2.0-rc1',
+734 silly addNameRange     '0.2.0',
+734 silly addNameRange     '0.2.1',
+734 silly addNameRange     '0.2.2',
+734 silly addNameRange     '0.2.3',
+734 silly addNameRange     '0.2.4',
+734 silly addNameRange     '0.2.5',
+734 silly addNameRange     '0.2.6',
+734 silly addNameRange     '0.2.7',
+734 silly addNameRange     '0.2.8',
+734 silly addNameRange     '0.2.9',
+734 silly addNameRange     '0.3.0',
+734 silly addNameRange     '0.2.10',
+734 silly addNameRange     '0.4.0',
+734 silly addNameRange     '0.4.1',
+734 silly addNameRange     '0.4.2',
+734 silly addNameRange     '0.4.4',
+734 silly addNameRange     '0.5.0',
+734 silly addNameRange     '0.5.1',
+734 silly addNameRange     '0.5.2',
+734 silly addNameRange     '0.5.3',
+734 silly addNameRange     '0.6.0',
+734 silly addNameRange     '0.7.0',
+734 silly addNameRange     '0.7.1',
+734 silly addNameRange     '0.7.2',
+734 silly addNameRange     '0.8.0',
+734 silly addNameRange     '0.8.1',
+734 silly addNameRange     '0.8.2',
+734 silly addNameRange     '0.8.3',
+734 silly addNameRange     '0.8.4',
+734 silly addNameRange     '0.8.5',
+734 silly addNameRange     '0.8.6',
+734 silly addNameRange     '0.8.7',
+734 silly addNameRange     '0.8.8',
+734 silly addNameRange     '0.8.9',
+734 silly addNameRange     '0.8.10',
+734 silly addNameRange     '0.8.11',
+734 silly addNameRange     '0.8.12',
+734 silly addNameRange     '0.9.0',
+734 silly addNameRange     '0.9.1',
+734 silly addNameRange     '0.9.2',
+734 silly addNameRange     '0.9.3',
+734 silly addNameRange     '0.9.4',
+734 silly addNameRange     '0.9.5',
+734 silly addNameRange     '0.9.6',
+734 silly addNameRange     '0.9.7',
+734 silly addNameRange     '1.0.0',
+734 silly addNameRange     '1.0.1',
+734 silly addNameRange     '2.0.0',
+734 silly addNameRange     '2.0.1',
+734 silly addNameRange     '2.0.2',
+734 silly addNameRange     '1.1.0',
+734 silly addNameRange     '1.1.1',
+734 silly addNameRange     '1.1.2' ] ]
+735 verbose addNamed [ 'q', '1.0.1' ]
+736 verbose addNamed [ '1.0.1', '1.0.1' ]
+737 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+738 verbose lock q@1.0.1 /Users/harrychen/.npm/5720ee24-q-1-0-1.lock
+739 verbose registry.get request-progress not expired, no request
+740 verbose registry.get request not expired, no request
+741 silly addNameRange number 2 { name: 'request', range: '>=2.42.0-0 <2.43.0-0', hasData: true }
+742 silly addNameRange versions [ 'request',
+742 silly addNameRange   [ '0.10.0',
+742 silly addNameRange     '0.8.3',
+742 silly addNameRange     '0.9.0',
+742 silly addNameRange     '0.9.1',
+742 silly addNameRange     '0.9.5',
+742 silly addNameRange     '1.0.0',
+742 silly addNameRange     '1.1.0',
+742 silly addNameRange     '1.1.1',
+742 silly addNameRange     '1.2.0',
+742 silly addNameRange     '1.9.0',
+742 silly addNameRange     '1.9.1',
+742 silly addNameRange     '1.9.2',
+742 silly addNameRange     '1.9.3',
+742 silly addNameRange     '1.9.5',
+742 silly addNameRange     '1.9.7',
+742 silly addNameRange     '1.9.8',
+742 silly addNameRange     '1.9.9',
+742 silly addNameRange     '2.0.0',
+742 silly addNameRange     '2.0.1',
+742 silly addNameRange     '2.0.2',
+742 silly addNameRange     '2.0.3',
+742 silly addNameRange     '2.0.4',
+742 silly addNameRange     '2.0.5',
+742 silly addNameRange     '2.1.0',
+742 silly addNameRange     '2.1.1',
+742 silly addNameRange     '2.2.0',
+742 silly addNameRange     '2.2.5',
+742 silly addNameRange     '2.2.6',
+742 silly addNameRange     '2.2.9',
+742 silly addNameRange     '2.9.0',
+742 silly addNameRange     '2.9.1',
+742 silly addNameRange     '2.9.2',
+742 silly addNameRange     '2.9.3',
+742 silly addNameRange     '2.9.100',
+742 silly addNameRange     '2.9.150',
+742 silly addNameRange     '2.9.151',
+742 silly addNameRange     '2.9.152',
+742 silly addNameRange     '2.9.153',
+742 silly addNameRange     '2.9.200',
+742 silly addNameRange     '2.9.201',
+742 silly addNameRange     '2.9.202',
+742 silly addNameRange     '2.9.203',
+742 silly addNameRange     '2.10.0',
+742 silly addNameRange     '2.11.0',
+742 silly addNameRange     '2.11.1',
+742 silly addNameRange     '2.11.2',
+742 silly addNameRange     '2.11.3',
+742 silly addNameRange     '2.11.4',
+742 silly addNameRange     '2.12.0',
+742 silly addNameRange     '2.14.0',
+742 silly addNameRange     '2.16.0',
+742 silly addNameRange     '2.16.2',
+742 silly addNameRange     '2.16.4',
+742 silly addNameRange     '2.16.6',
+742 silly addNameRange     '2.18.0',
+742 silly addNameRange     '2.19.0',
+742 silly addNameRange     '2.20.0',
+742 silly addNameRange     '2.21.0',
+742 silly addNameRange     '2.22.0',
+742 silly addNameRange     '2.23.0',
+742 silly addNameRange     '2.24.0',
+742 silly addNameRange     '2.25.0',
+742 silly addNameRange     '2.26.0',
+742 silly addNameRange     '2.27.0',
+742 silly addNameRange     '2.28.0',
+742 silly addNameRange     '2.29.0',
+742 silly addNameRange     '2.30.0',
+742 silly addNameRange     '2.31.0',
+742 silly addNameRange     '2.32.0',
+742 silly addNameRange     '2.33.0',
+742 silly addNameRange     '2.34.0',
+742 silly addNameRange     '2.35.0',
+742 silly addNameRange     '2.36.0',
+742 silly addNameRange     '2.37.0',
+742 silly addNameRange     '2.38.0',
+742 silly addNameRange     '2.39.0',
+742 silly addNameRange     '2.40.0',
+742 silly addNameRange     '2.41.0',
+742 silly addNameRange     '2.42.0',
+742 silly addNameRange     '2.43.0',
+742 silly addNameRange     '2.44.0',
+742 silly addNameRange     '2.45.0',
+742 silly addNameRange     '2.46.0',
+742 silly addNameRange     '2.47.0',
+742 silly addNameRange     '2.48.0',
+742 silly addNameRange     '2.49.0',
+742 silly addNameRange     '2.50.0',
+742 silly addNameRange     '2.51.0' ] ]
+743 verbose addNamed [ 'request', '2.42.0' ]
+744 verbose addNamed [ '2.42.0', '2.42.0' ]
+745 silly lockFile 6619e4b4-request-2-42-0 request@2.42.0
+746 verbose lock request@2.42.0 /Users/harrychen/.npm/6619e4b4-request-2-42-0.lock
+747 verbose registry.get retry not expired, no request
+748 verbose registry.get rimraf not expired, no request
+749 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.0-0 <2.3.0-0', hasData: true }
+750 silly addNameRange versions [ 'rimraf',
+750 silly addNameRange   [ '1.0.0',
+750 silly addNameRange     '1.0.1',
+750 silly addNameRange     '1.0.2',
+750 silly addNameRange     '1.0.4',
+750 silly addNameRange     '1.0.5',
+750 silly addNameRange     '1.0.6',
+750 silly addNameRange     '1.0.7',
+750 silly addNameRange     '1.0.8',
+750 silly addNameRange     '1.0.9',
+750 silly addNameRange     '2.0.0',
+750 silly addNameRange     '2.0.1',
+750 silly addNameRange     '2.0.2',
+750 silly addNameRange     '2.0.3',
+750 silly addNameRange     '2.1.0',
+750 silly addNameRange     '2.1.1',
+750 silly addNameRange     '2.1.2',
+750 silly addNameRange     '2.1.3',
+750 silly addNameRange     '2.1.4',
+750 silly addNameRange     '2.2.0',
+750 silly addNameRange     '2.2.1',
+750 silly addNameRange     '2.2.2',
+750 silly addNameRange     '2.2.3',
+750 silly addNameRange     '2.2.4',
+750 silly addNameRange     '2.2.5',
+750 silly addNameRange     '2.2.6',
+750 silly addNameRange     '2.2.8' ] ]
+751 verbose addNamed [ 'rimraf', '2.2.8' ]
+752 verbose addNamed [ '2.2.8', '2.2.8' ]
+753 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+754 verbose lock rimraf@2.2.8 /Users/harrychen/.npm/b87241a4-rimraf-2-2-8.lock
+755 verbose registry.get semver not expired, no request
+756 silly addNameRange number 2 { name: 'semver', range: '>=2.3.0-0 <2.4.0-0', hasData: true }
+757 silly addNameRange versions [ 'semver',
+757 silly addNameRange   [ '1.0.0',
+757 silly addNameRange     '1.0.1',
+757 silly addNameRange     '1.0.2',
+757 silly addNameRange     '1.0.3',
+757 silly addNameRange     '1.0.4',
+757 silly addNameRange     '1.0.5',
+757 silly addNameRange     '1.0.6',
+757 silly addNameRange     '1.0.7',
+757 silly addNameRange     '1.0.8',
+757 silly addNameRange     '1.0.9',
+757 silly addNameRange     '1.0.10',
+757 silly addNameRange     '1.0.11',
+757 silly addNameRange     '1.0.12',
+757 silly addNameRange     '1.0.13',
+757 silly addNameRange     '1.0.14',
+757 silly addNameRange     '1.1.0',
+757 silly addNameRange     '1.1.1',
+757 silly addNameRange     '1.1.2',
+757 silly addNameRange     '1.1.3',
+757 silly addNameRange     '1.1.4',
+757 silly addNameRange     '2.0.0-alpha',
+757 silly addNameRange     '2.0.0-beta',
+757 silly addNameRange     '2.0.1',
+757 silly addNameRange     '2.0.2',
+757 silly addNameRange     '2.0.3',
+757 silly addNameRange     '2.0.4',
+757 silly addNameRange     '2.0.5',
+757 silly addNameRange     '2.0.6',
+757 silly addNameRange     '2.0.7',
+757 silly addNameRange     '2.0.8',
+757 silly addNameRange     '2.0.9',
+757 silly addNameRange     '2.0.10',
+757 silly addNameRange     '2.0.11',
+757 silly addNameRange     '2.1.0',
+757 silly addNameRange     '2.2.0',
+757 silly addNameRange     '2.2.1',
+757 silly addNameRange     '2.3.0',
+757 silly addNameRange     '2.3.1',
+757 silly addNameRange     '2.3.2',
+757 silly addNameRange     '3.0.0',
+757 silly addNameRange     '3.0.1',
+757 silly addNameRange     '4.0.0',
+757 silly addNameRange     '4.0.2',
+757 silly addNameRange     '4.0.3',
+757 silly addNameRange     '4.1.0',
+757 silly addNameRange     '4.1.1',
+757 silly addNameRange     '4.2.0' ] ]
+758 verbose addNamed [ 'semver', '2.3.2' ]
+759 verbose addNamed [ '2.3.2', '2.3.2' ]
+760 silly lockFile 860f99cb-semver-2-3-2 semver@2.3.2
+761 verbose lock semver@2.3.2 /Users/harrychen/.npm/860f99cb-semver-2-3-2.lock
+762 silly lockFile c23e4b02-bower-endpoint-parser-0-2-2 bower-endpoint-parser@~0.2.2
+763 silly lockFile c23e4b02-bower-endpoint-parser-0-2-2 bower-endpoint-parser@~0.2.2
+764 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+765 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+766 silly lockFile f5578357-cardinal-0-4-0 cardinal@0.4.0
+767 silly lockFile f5578357-cardinal-0-4-0 cardinal@0.4.0
+768 verbose about to build /Users/harrychen/Mobileapps/everythingDB-app/node_modules/bower
+769 info /Users/harrychen/Mobileapps/everythingDB-app/node_modules/bower unbuild
+770 info preuninstall bower@1.3.12
+771 silly lockFile 6ec0f64b-bower-config-0-5-2 bower-config@~0.5.2
+772 silly lockFile 6ec0f64b-bower-config-0-5-2 bower-config@~0.5.2
+773 verbose registry.get shell-quote not expired, no request
+774 silly addNameRange number 2 { name: 'shell-quote',
+774 silly addNameRange   range: '>=1.4.1-0 <1.5.0-0',
+774 silly addNameRange   hasData: true }
+775 silly addNameRange versions [ 'shell-quote',
+775 silly addNameRange   [ '0.0.0',
+775 silly addNameRange     '0.0.1',
+775 silly addNameRange     '0.1.0',
+775 silly addNameRange     '0.1.1',
+775 silly addNameRange     '1.0.0',
+775 silly addNameRange     '1.1.0',
+775 silly addNameRange     '1.2.0',
+775 silly addNameRange     '1.3.0',
+775 silly addNameRange     '1.3.1',
+775 silly addNameRange     '1.3.2',
+775 silly addNameRange     '1.3.3',
+775 silly addNameRange     '1.4.0',
+775 silly addNameRange     '1.4.1',
+775 silly addNameRange     '1.4.2' ] ]
+776 verbose addNamed [ 'shell-quote', '1.4.2' ]
+777 verbose addNamed [ '1.4.2', '1.4.2' ]
+778 silly lockFile 1f28b9b2-shell-quote-1-4-2 shell-quote@1.4.2
+779 verbose lock shell-quote@1.4.2 /Users/harrychen/.npm/1f28b9b2-shell-quote-1-4-2.lock
+780 verbose registry.get stringify-object not expired, no request
+781 silly addNameRange number 2 { name: 'stringify-object',
+781 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+781 silly addNameRange   hasData: true }
+782 silly addNameRange versions [ 'stringify-object',
+782 silly addNameRange   [ '0.1.0',
+782 silly addNameRange     '0.1.1',
+782 silly addNameRange     '0.1.2',
+782 silly addNameRange     '0.1.3',
+782 silly addNameRange     '0.1.4',
+782 silly addNameRange     '0.1.5',
+782 silly addNameRange     '0.1.6',
+782 silly addNameRange     '0.1.7',
+782 silly addNameRange     '0.1.8',
+782 silly addNameRange     '0.2.0',
+782 silly addNameRange     '0.2.1',
+782 silly addNameRange     '1.0.0' ] ]
+783 verbose addNamed [ 'stringify-object', '1.0.0' ]
+784 verbose addNamed [ '1.0.0', '1.0.0' ]
+785 silly lockFile f57d5fd8-stringify-object-1-0-0 stringify-object@1.0.0
+786 verbose lock stringify-object@1.0.0 /Users/harrychen/.npm/f57d5fd8-stringify-object-1-0-0.lock
+787 verbose registry.get tar-fs not expired, no request
+788 verbose registry.get tmp not expired, no request
+789 verbose registry.get update-notifier not expired, no request
+790 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+791 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+792 verbose registry.get which not expired, no request
+793 silly addNameRange number 2 { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+794 silly addNameRange versions [ 'which',
+794 silly addNameRange   [ '1.0.0',
+794 silly addNameRange     '1.0.1',
+794 silly addNameRange     '1.0.2',
+794 silly addNameRange     '1.0.3',
+794 silly addNameRange     '1.0.5',
+794 silly addNameRange     '1.0.6',
+794 silly addNameRange     '1.0.7',
+794 silly addNameRange     '1.0.8' ] ]
+795 verbose addNamed [ 'which', '1.0.8' ]
+796 verbose addNamed [ '1.0.8', '1.0.8' ]
+797 silly lockFile a008069a-which-1-0-8 which@1.0.8
+798 verbose lock which@1.0.8 /Users/harrychen/.npm/a008069a-which-1-0-8.lock
+799 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+800 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+801 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
+802 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
+803 silly lockFile e6aeabba-bower-registry-client-0-2-3 bower-registry-client@0.2.3
+804 silly lockFile e6aeabba-bower-registry-client-0-2-3 bower-registry-client@0.2.3
+805 silly lockFile 7a56c733-decompress-zip-0-0-8 decompress-zip@0.0.8
+806 silly lockFile 7a56c733-decompress-zip-0-0-8 decompress-zip@0.0.8
+807 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
+808 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
+809 info uninstall bower@1.3.12
+810 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
+811 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
+812 silly lockFile 07877a53-inquirer-0-7-1 inquirer@0.7.1
+813 silly lockFile 07877a53-inquirer-0-7-1 inquirer@0.7.1
+814 silly lockFile ede035e6-fstream-1-0-4 fstream@1.0.4
+815 silly lockFile ede035e6-fstream-1-0-4 fstream@1.0.4
+816 silly lockFile da4675d5-insight-0-4-3 insight@0.4.3
+817 silly lockFile da4675d5-insight-0-4-3 insight@0.4.3
+818 silly lockFile 58191f1e-fstream-ignore-1-0-2 fstream-ignore@1.0.2
+819 silly lockFile 58191f1e-fstream-ignore-1-0-2 fstream-ignore@1.0.2
+820 verbose true,/Users/harrychen/Mobileapps/everythingDB-app/node_modules,/Users/harrychen/Mobileapps/everythingDB-app/node_modules unbuild bower@1.3.12
+821 verbose /Users/harrychen/Mobileapps/everythingDB-app/node_modules/.bin,[object Object] binRoot
+822 silly lockFile bada8ba0-fstream-1-0-2 fstream@~1.0.2
+823 silly lockFile bada8ba0-fstream-1-0-2 fstream@~1.0.2
+824 silly lockFile 82561750-glob-4-0-6 glob@4.0.6
+825 silly lockFile 82561750-glob-4-0-6 glob@4.0.6
+826 silly lockFile cf3f6b1e-graceful-fs-3-0-5 graceful-fs@3.0.5
+827 silly lockFile cf3f6b1e-graceful-fs-3-0-5 graceful-fs@3.0.5
+828 silly lockFile 4e461ac0-fstream-ignore-1-0-1 fstream-ignore@~1.0.1
+829 silly lockFile 4e461ac0-fstream-ignore-1-0-1 fstream-ignore@~1.0.1
+830 silly lockFile a1e153af-handlebars-2-0-0 handlebars@2.0.0
+831 silly lockFile a1e153af-handlebars-2-0-0 handlebars@2.0.0
+832 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+833 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+834 silly lockFile 8f25476a-osenv-0-1-0 osenv@0.1.0
+835 silly lockFile 8f25476a-osenv-0-1-0 osenv@0.1.0
+836 silly lockFile 93e00600-glob-4-0-2 glob@~4.0.2
+837 silly lockFile 93e00600-glob-4-0-2 glob@~4.0.2
+838 silly lockFile 901920ca-graceful-fs-3-0-1 graceful-fs@~3.0.1
+839 silly lockFile 901920ca-graceful-fs-3-0-1 graceful-fs@~3.0.1
+840 silly lockFile 917ab67d-handlebars-2-0-0 handlebars@~2.0.0
+841 silly lockFile 917ab67d-handlebars-2-0-0 handlebars@~2.0.0
+842 silly lockFile 569ba987-is-root-1-0-0 is-root@1.0.0
+843 silly lockFile 569ba987-is-root-1-0-0 is-root@1.0.0
+844 silly lockFile a9135e61-junk-1-0-0 junk@1.0.0
+845 silly lockFile a9135e61-junk-1-0-0 junk@1.0.0
+846 silly lockFile aea1ccf7-p-throttler-0-1-0 p-throttler@0.1.0
+847 silly lockFile aea1ccf7-p-throttler-0-1-0 p-throttler@0.1.0
+848 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
+849 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
+850 silly lockFile caf2758e-request-progress-0-3-0 request-progress@0.3.0
+851 silly lockFile caf2758e-request-progress-0-3-0 request-progress@0.3.0
+852 silly lockFile 874cb068-retry-0-6-0 retry@0.6.0
+853 silly lockFile 874cb068-retry-0-6-0 retry@0.6.0
+854 info postuninstall bower@1.3.12
+855 silly lockFile 53c35513-is-root-1-0-0 is-root@~1.0.0
+856 silly lockFile 53c35513-is-root-1-0-0 is-root@~1.0.0
+857 silly lockFile e19f7586-lockfile-1-0-0 lockfile@1.0.0
+858 silly lockFile e19f7586-lockfile-1-0-0 lockfile@1.0.0
+859 silly lockFile e4e462ce-junk-1-0-0 junk@~1.0.0
+860 silly lockFile e4e462ce-junk-1-0-0 junk@~1.0.0
+861 silly lockFile 87454de7-mout-0-9-1 mout@0.9.1
+862 silly lockFile 87454de7-mout-0-9-1 mout@0.9.1
+863 silly lockFile a15bc1c5-nopt-3-0-1 nopt@3.0.1
+864 silly lockFile a15bc1c5-nopt-3-0-1 nopt@3.0.1
+865 silly lockFile 92e27783-opn-1-0-1 opn@1.0.1
+866 silly lockFile 92e27783-opn-1-0-1 opn@1.0.1
+867 silly lockFile 197bacf4-tar-fs-0-5-2 tar-fs@0.5.2
+868 silly lockFile 197bacf4-tar-fs-0-5-2 tar-fs@0.5.2
+869 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+870 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+871 silly lockFile 8e5d91fe-update-notifier-0-2-0 update-notifier@0.2.0
+872 silly lockFile 8e5d91fe-update-notifier-0-2-0 update-notifier@0.2.0
+873 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+874 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+875 silly lockFile af6d2126-lockfile-1-0-0 lockfile@~1.0.0
+876 silly lockFile af6d2126-lockfile-1-0-0 lockfile@~1.0.0
+877 silly lockFile 5ca20e6e-mout-0-9-0 mout@~0.9.0
+878 silly lockFile 5ca20e6e-mout-0-9-0 mout@~0.9.0
+879 silly lockFile 9be750cb-nopt-3-0-0 nopt@~3.0.0
+880 silly lockFile 9be750cb-nopt-3-0-0 nopt@~3.0.0
+881 silly lockFile 008c9731-opn-1-0-0 opn@~1.0.0
+882 silly lockFile 008c9731-opn-1-0-0 opn@~1.0.0
+883 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+884 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+885 silly lockFile 6619e4b4-request-2-42-0 request@2.42.0
+886 silly lockFile 6619e4b4-request-2-42-0 request@2.42.0
+887 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+888 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+889 silly lockFile 860f99cb-semver-2-3-2 semver@2.3.2
+890 silly lockFile 860f99cb-semver-2-3-2 semver@2.3.2
+891 silly lockFile d9ec30b5-lru-cache-2-5-0 lru-cache@~2.5.0
+892 silly lockFile d9ec30b5-lru-cache-2-5-0 lru-cache@~2.5.0
+893 silly lockFile bfcfee2e-q-1-0-1 q@~1.0.1
+894 silly lockFile bfcfee2e-q-1-0-1 q@~1.0.1
+895 silly lockFile 8adb197d-request-2-42-0 request@~2.42.0
+896 silly lockFile 8adb197d-request-2-42-0 request@~2.42.0
+897 silly lockFile 69dbd68f-rimraf-2-2-0 rimraf@~2.2.0
+898 silly lockFile 69dbd68f-rimraf-2-2-0 rimraf@~2.2.0
+899 silly lockFile 1f28b9b2-shell-quote-1-4-2 shell-quote@1.4.2
+900 silly lockFile 1f28b9b2-shell-quote-1-4-2 shell-quote@1.4.2
+901 silly lockFile f57d5fd8-stringify-object-1-0-0 stringify-object@1.0.0
+902 silly lockFile f57d5fd8-stringify-object-1-0-0 stringify-object@1.0.0
+903 silly lockFile 1576312f-semver-2-3-0 semver@~2.3.0
+904 silly lockFile 1576312f-semver-2-3-0 semver@~2.3.0
+905 silly lockFile a008069a-which-1-0-8 which@1.0.8
+906 silly lockFile a008069a-which-1-0-8 which@1.0.8
+907 silly lockFile cfbfb4a3-shell-quote-1-4-1 shell-quote@~1.4.1
+908 silly lockFile cfbfb4a3-shell-quote-1-4-1 shell-quote@~1.4.1
+909 silly lockFile 9f0958e2-stringify-object-1-0-0 stringify-object@~1.0.0
+910 silly lockFile 9f0958e2-stringify-object-1-0-0 stringify-object@~1.0.0
+911 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+912 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+913 error Failed to parse json
+913 error Unexpected end of input
+914 error File: /Users/harrychen/.npm/chalk/0.5.0/package/package.json
+915 error Failed to parse package.json data.
+915 error package.json must be actual JSON, not just JavaScript.
+915 error
+915 error This is not a bug in npm.
+915 error Tell the package author to fix their package.json file. JSON.parse
+916 error System Darwin 14.0.0
+917 error command "node" "/usr/local/bin/npm" "install"
+918 error cwd /Users/harrychen/Mobileapps/everythingDB-app
+919 error node -v v0.10.29
+920 error npm -v 1.4.14
+921 error file /Users/harrychen/.npm/chalk/0.5.0/package/package.json
+922 error code EJSONPARSE
+923 verbose exit [ 1, true ]
